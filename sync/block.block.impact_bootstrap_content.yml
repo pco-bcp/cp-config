@@ -1,0 +1,22 @@
+uuid: 787f378f-6d99-42a4-b010-06b7e339f95b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - impact_bootstrap
+_core:
+  default_config_hash: 2EB5oVF72EL3wutd4cJdPiwOV6-BwIR32rjBr3jF2U4
+id: impact_bootstrap_content
+theme: impact_bootstrap
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

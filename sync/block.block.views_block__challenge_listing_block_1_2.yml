@@ -1,21 +1,18 @@
-uuid: 39ba6827-b87f-4d6d-a240-ae78aaeba5b9
+uuid: 4fc777ec-7ce6-4f27-8dfb-a75cf3328360
 langcode: en
 status: false
 dependencies:
   config:
     - views.view.challenge_listing
   module:
-    - system
     - views
     - wxt_library
   theme:
-    - pco_cities_bootstrap
-_core:
-  default_config_hash: eah_8ytcaJBedh3-jNxPoycmAAdwzYXWsvUrC7L-wTk
-id: views_block__challenge_listing_block_1
-theme: pco_cities_bootstrap
+    - impact_bootstrap
+id: views_block__challenge_listing_block_1_2
+theme: impact_bootstrap
 region: content
-weight: -9
+weight: 0
 provider: null
 plugin: 'views_block:challenge_listing-block_1'
 settings:
@@ -26,11 +23,6 @@ settings:
   views_label: ''
   items_per_page: none
 visibility:
-  request_path:
-    id: request_path
-    pages: '<front>'
-    negate: false
-    context_mapping: {  }
   panels_title:
     id: panels_title
     enabled: 0

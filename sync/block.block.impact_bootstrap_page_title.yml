@@ -1,4 +1,4 @@
-uuid: e6101fab-6b74-4a09-b90d-4ef040d7cf73
+uuid: e7caf79a-5971-428e-b6ea-6930bdaaa0c9
 langcode: en
 status: true
 dependencies:
@@ -6,11 +6,11 @@ dependencies:
     - node
     - wxt_library
   theme:
-    - pco_cities_bootstrap
+    - impact_bootstrap
 _core:
-  default_config_hash: kFhWPbaK2PZ2iCccw-rD8glW8Krf5LIk__L9UFvVwsU
-id: pco_cities_bootstrap_page_title
-theme: pco_cities_bootstrap
+  default_config_hash: R2U-aaBP7C2iXvrO69IXU9dsepm9YZjjkh-WEDVl3ro
+id: impact_bootstrap_page_title
+theme: impact_bootstrap
 region: header
 weight: -9
 provider: null

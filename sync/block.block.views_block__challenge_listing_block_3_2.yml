@@ -1,19 +1,18 @@
-uuid: 97619ed9-a6b1-40c0-ab04-552f238bedce
+uuid: 2038759e-b8ff-4594-ac2d-4f7c2596daf7
 langcode: en
 status: true
 dependencies:
   config:
     - views.view.challenge_listing
   module:
-    - system
     - views
     - wxt_library
   theme:
-    - pco_cities_bootstrap
-id: views_block__challenge_listing_block_3
-theme: pco_cities_bootstrap
+    - impact_bootstrap
+id: views_block__challenge_listing_block_3_2
+theme: impact_bootstrap
 region: content
-weight: -10
+weight: 0
 provider: null
 plugin: 'views_block:challenge_listing-block_3'
 settings:
@@ -24,11 +23,6 @@ settings:
   views_label: ''
   items_per_page: none
 visibility:
-  request_path:
-    id: request_path
-    pages: "/challenges\r\n/defis"
-    negate: false
-    context_mapping: {  }
   panels_title:
     id: panels_title
     enabled: 0

@@ -3,14 +3,10 @@ langcode: en
 status: true
 dependencies:
   module:
-    - block_class
     - system
     - wxt_library
   theme:
     - pco_cities_bootstrap
-third_party_settings:
-  block_class:
-    classes: ''
 _core:
   default_config_hash: 0el2Z9N1JCkwbmJU4LbH-0uvkSrcWF04sxglQ-_F7Uo
 id: pco_cities_bootstrap_breadcrumbs

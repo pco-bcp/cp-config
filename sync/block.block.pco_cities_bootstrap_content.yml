@@ -1,16 +1,12 @@
 uuid: ca0ff2d7-ffca-4263-969a-0b7298bfcd2f
 langcode: en
-status: true
+status: false
 dependencies:
   module:
-    - block_class
     - system
     - wxt_library
   theme:
     - pco_cities_bootstrap
-third_party_settings:
-  block_class:
-    classes: ''
 _core:
   default_config_hash: w5c3opi0MOUT3wXAGoeaJhI0dBs9IRTVpwWClxko_ns
 id: pco_cities_bootstrap_content

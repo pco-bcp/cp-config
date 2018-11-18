@@ -1,4 +1,4 @@
-uuid: 5a51b856-62f7-4907-94f9-6d106046d20e
+uuid: 323f4174-9c39-4563-84a4-db599d25e24f
 langcode: en
 status: false
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
     - user
     - wxt_library
   theme:
-    - pco_cities_bootstrap
+    - impact_bootstrap
 _core:
-  default_config_hash: ztLpsoha8-gLD_nC-eCEDzuuxjsoSA885_xwQSLh3Ek
-id: pco_cities_user_account_block
-theme: pco_cities_bootstrap
+  default_config_hash: CWH5DcmBzddjqRTUsj4WooXoTMm9TdA9EQRdkfNeA6U
+id: impact_user_account_block
+theme: impact_bootstrap
 region: header
 weight: -6
 provider: null

@@ -1,0 +1,35 @@
+uuid: c5b903b7-efac-4cf4-90d4-6776ee94d6c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+    - wxt_library
+  theme:
+    - impact_bootstrap
+third_party_settings:
+  block_class:
+    classes: dasbranding
+_core:
+  default_config_hash: 48T7wRD0mNHKB6MUt2AO8rJZKTZwC-IiTxFTUtlg9i8
+id: impact_sitebranding
+theme: impact_bootstrap
+region: banner
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility:
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

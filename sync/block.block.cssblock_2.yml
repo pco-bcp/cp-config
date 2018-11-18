@@ -1,4 +1,4 @@
-uuid: bbf818c5-a3dd-4762-bd74-0272274d10e9
+uuid: ceb5dcbb-7481-4ca4-add2-ecaa22a72b1f
 langcode: en
 status: true
 dependencies:
@@ -8,18 +8,18 @@ dependencies:
     - block_content
     - wxt_library
   theme:
-    - pco_cities_bootstrap
-id: cssblock
-theme: pco_cities_bootstrap
+    - impact_bootstrap
+id: cssblock_2
+theme: impact_bootstrap
 region: footer
-weight: -9
+weight: 0
 provider: null
 plugin: 'block_content:515592a6-6209-4e2f-851f-ba2c996c1989'
 settings:
   id: 'block_content:515592a6-6209-4e2f-851f-ba2c996c1989'
   label: 'css block'
   provider: block_content
-  label_display: '0'
+  label_display: visible
   status: true
   info: ''
   view_mode: full

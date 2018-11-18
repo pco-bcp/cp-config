@@ -1,0 +1,26 @@
+uuid: a1712d0d-8960-47b5-a896-a902b10db43f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - impact_bootstrap
+_core:
+  default_config_hash: Ra5LRKlDWw4PTXfvln2nTkxwtcrn2o8CpXvfDFFSi0Y
+id: impact_bootstrap_account_menu
+theme: impact_bootstrap
+region: navigation_collapsible
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: a4e9352a-fe84-4c4e-9a8a-075a0887e47d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - impact_bootstrap
+_core:
+  default_config_hash: NzV9uODFtj3yqA1H5IcwpaZMHhMb1qczmbCMFbhwr4k
+id: impact_bootstrap_messages
+theme: impact_bootstrap
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

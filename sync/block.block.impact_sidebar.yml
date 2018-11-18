@@ -1,0 +1,34 @@
+uuid: b50e3479-0396-485d-81e3-419db8f8edf9
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.sidebar
+  module:
+    - node
+    - system
+  theme:
+    - impact_bootstrap
+_core:
+  default_config_hash: ZbyxGf1ybDXWwTc7iA0iEZhR4xTJfN0tamNA9SHxYMY
+id: impact_sidebar
+theme: impact_bootstrap
+region: branding
+weight: -8
+provider: null
+plugin: 'system_menu_block:sidebar'
+settings:
+  id: 'system_menu_block:sidebar'
+  label: Sidebar
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

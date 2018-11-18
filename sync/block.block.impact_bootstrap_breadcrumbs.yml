@@ -1,0 +1,22 @@
+uuid: 62e5f9bc-aa69-4d2f-bff4-2efe08ad321b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - impact_bootstrap
+_core:
+  default_config_hash: mnvY9WqJsf5ejpYT7tSmr4wGqXVTaHtH0NV8nZc2nKk
+id: impact_bootstrap_breadcrumbs
+theme: impact_bootstrap
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

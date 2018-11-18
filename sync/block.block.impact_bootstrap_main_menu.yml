@@ -1,0 +1,26 @@
+uuid: 974b9e15-9bd9-454c-9277-2a1623eff6ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - impact_bootstrap
+_core:
+  default_config_hash: nvgJRcbAqwmA267-KYQmSaMIZoFusRwjNRP3N9WiUlA
+id: impact_bootstrap_main_menu
+theme: impact_bootstrap
+region: navigation
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

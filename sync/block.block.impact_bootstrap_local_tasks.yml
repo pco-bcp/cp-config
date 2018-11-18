@@ -1,0 +1,22 @@
+uuid: 9ca00fb6-1adf-4856-9312-8292e45c84fe
+langcode: en
+status: false
+dependencies:
+  theme:
+    - impact_bootstrap
+_core:
+  default_config_hash: M3CFUpk2IeP2pPFewQ-qE3dGCR8d-bZce6yvpQ77icw
+id: impact_bootstrap_local_tasks
+theme: impact_bootstrap
+region: header
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

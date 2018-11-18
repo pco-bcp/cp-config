@@ -1,0 +1,22 @@
+uuid: 511eb881-5fa7-4124-b36e-57dc5c49d9f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - impact_bootstrap
+_core:
+  default_config_hash: 75uK4k6OMKUvF1hOH-gF6c6N84c-Gs8Z-iOwoMPTA0c
+id: impact_bootstrap_help
+theme: impact_bootstrap
+region: help
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

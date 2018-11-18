@@ -34,8 +34,9 @@ url:
 theme:
   visibility: 1
   themes:
-    wxt_bootstrap: wxt_bootstrap
+    impact_bootstrap: impact_bootstrap
     pco_cities_bootstrap: pco_cities_bootstrap
+    wxt_bootstrap: wxt_bootstrap
 minimized:
   options: 1
 files:

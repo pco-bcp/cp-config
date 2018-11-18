@@ -1,0 +1,20 @@
+uuid: 808f01ae-4de5-4868-a2b0-65bcc12f4cc1
+langcode: en
+status: false
+dependencies:
+  theme:
+    - impact_bootstrap
+_core:
+  default_config_hash: 9XYCKbLnDlJWQQ5FfaJAdDXaw9UEIiuV_OcW0lSef8I
+id: impact_bootstrap_local_actions
+theme: impact_bootstrap
+region: header
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

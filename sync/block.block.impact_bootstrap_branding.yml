@@ -1,0 +1,25 @@
+uuid: 93d18a92-0916-4e3b-aae6-7860ad4eb9d9
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - impact_bootstrap
+_core:
+  default_config_hash: P1p-W0krbq_7sZbj_3aQ42aS9VzUqHYzEEcVj27oMwg
+id: impact_bootstrap_branding
+theme: impact_bootstrap
+region: branding
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
