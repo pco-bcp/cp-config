@@ -1,0 +1,22 @@
+uuid: ce31ff17-3ae7-4d02-ae70-e7f5b3211c37
+langcode: en
+status: false
+dependencies:
+  module:
+    - wxt_library
+  theme:
+    - pco_cities_bootstrap
+_core:
+  default_config_hash: 9Ajr2ViLh_8R_qyo9fhQX9zPVyGI3S9TlGnLpIS4yUA
+id: pco_cities_wxtsearchform
+theme: pco_cities_bootstrap
+region: branding
+weight: -7
+provider: null
+plugin: wxt_search_form_block
+settings:
+  id: wxt_search_form_block
+  label: 'WxT Search form'
+  provider: wxt_library
+  label_display: visible
+visibility: {  }

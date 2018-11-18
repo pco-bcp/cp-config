@@ -1,0 +1,14 @@
+uuid: 07cfc4c6-2db3-4c58-b246-e9b6ce50c977
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+    - node
+third_party_settings:
+  lightning_core:
+    description: 'Banner for challenge Subpages'
+id: node.challenge_banner
+label: 'Challenge Banner'
+targetEntityType: node
+cache: true

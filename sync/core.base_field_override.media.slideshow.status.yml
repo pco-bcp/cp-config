@@ -1,0 +1,22 @@
+uuid: 9db36111-e9ea-43bd-8c10-32528b3b9193
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.slideshow
+id: media.slideshow.status
+field_name: status
+entity_type: media
+bundle: slideshow
+label: 'Publishing status'
+description: 'A boolean indicating whether the media is published.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,130 @@
+uuid: a0b99871-14f0-460a-8bb6-ab43340f91d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_last_name
+    - field.field.user.user.panelizer
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - panelizer
+    - user
+third_party_settings:
+  panelizer:
+    enable: true
+    custom: true
+    allow: false
+    default: default
+    displays:
+      default:
+        blocks:
+          e1c039a1-1d7b-449d-ae7d-2a156dd4c38f:
+            id: 'entity_field:user:field_first_name'
+            label: 'First Name'
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: above
+              type: string
+              settings:
+                link_to_entity: false
+              third_party_settings: {  }
+              weight: 0
+              region: content
+            region: content
+            weight: 5
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+            uuid: e1c039a1-1d7b-449d-ae7d-2a156dd4c38f
+          4715747c-76f1-498e-8574-edcec7ece281:
+            id: 'entity_field:user:field_last_name'
+            label: 'Last Name'
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: above
+              type: string
+              settings:
+                link_to_entity: false
+              third_party_settings: {  }
+              weight: 0
+              region: content
+            region: content
+            weight: 5
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+            uuid: 4715747c-76f1-498e-8574-edcec7ece281
+          3b33873f-195b-48aa-b2a9-bfeae15d9460:
+            id: 'entity_field:user:user_picture'
+            label: Picture
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: above
+              type: image
+              settings:
+                image_style: thumbnail
+                image_link: content
+              third_party_settings: {  }
+              weight: 0
+              region: content
+            region: content
+            weight: 1
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+            uuid: 3b33873f-195b-48aa-b2a9-bfeae15d9460
+        id: panels_variant
+        label: Default
+        uuid: 293c7523-ac4e-421f-97f9-a5a2650fb5ca
+        weight: 0
+        layout: layout_onecol
+        layout_settings: {  }
+        page_title: '[user:name]'
+        storage_type: panelizer_default
+        storage_id: 'user:user:default:default'
+        builder: ipe
+        pattern: panelizer
+        static_context: {  }
+_core:
+  default_config_hash: L2mtwGWH_7wDRCMIR4r_Iu_jmvQ10DV1L8ht8iNZ5qY
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_first_name:
+    type: string
+    weight: 5
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_last_name:
+    type: string
+    weight: 5
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  member_for:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  user_picture:
+    type: image
+    weight: 1
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: above
+    region: content
+hidden:
+  langcode: true
+  panelizer: true

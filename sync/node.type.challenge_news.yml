@@ -1,0 +1,17 @@
+uuid: 6f7091b3-eff2-4e1e-9079-c64c309ef9ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Challenge News'
+type: challenge_news
+description: 'News articles related to a challenge content type'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: true

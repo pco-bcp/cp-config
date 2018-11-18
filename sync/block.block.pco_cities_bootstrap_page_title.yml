@@ -1,0 +1,39 @@
+uuid: e6101fab-6b74-4a09-b90d-4ef040d7cf73
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - node
+    - wxt_library
+  theme:
+    - pco_cities_bootstrap
+third_party_settings:
+  block_class:
+    classes: ''
+_core:
+  default_config_hash: kFhWPbaK2PZ2iCccw-rD8glW8Krf5LIk__L9UFvVwsU
+id: pco_cities_bootstrap_page_title
+theme: pco_cities_bootstrap
+region: header
+weight: -9
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

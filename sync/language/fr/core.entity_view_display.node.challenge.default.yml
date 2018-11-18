@@ -1,0 +1,18 @@
+third_party_settings:
+  panelizer:
+    displays:
+      default:
+        blocks:
+          6d6ee4f6-da24-4a13-9c58-641041a50e73:
+            label: Description
+          e57e5920-08c3-4023-97fe-9e02d318573a:
+            label: Défis
+          1d969932-bf07-4a05-8c1b-c470c8400594:
+            label: Titre
+          1ce23b14-125f-4dfa-84c1-3042d22cd4bd:
+            label: Département
+          df67b36c-fba9-4540-a479-3c8745ec402c:
+            label: Mots-clés
+          af406e09-f8d0-4905-b736-66c54e539657:
+            label: 'DÉTAILS DU DÉFI'
+        label: 'Par défaut'

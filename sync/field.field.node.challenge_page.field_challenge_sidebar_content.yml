@@ -1,0 +1,23 @@
+uuid: 35ad088b-173d-4b55-866f-0f683f9d2d58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_challenge_sidebar_content
+    - node.type.challenge_page
+  module:
+    - text
+_core:
+  default_config_hash: q8HZD9mamtU3hh1AvMvBujglQNplPxF3mQGvUruE9lk
+id: node.challenge_page.field_challenge_sidebar_content
+field_name: field_challenge_sidebar_content
+entity_type: node
+bundle: challenge_page
+label: 'Sidebar Content'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

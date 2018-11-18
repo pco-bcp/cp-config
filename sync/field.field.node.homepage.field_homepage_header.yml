@@ -1,0 +1,28 @@
+uuid: f3d98dee-9705-4b66-804a-5e568d399feb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_homepage_header
+    - node.type.header_banner
+    - node.type.homepage
+id: node.homepage.field_homepage_header
+field_name: field_homepage_header
+entity_type: node
+bundle: homepage
+label: 'Homepage Header'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      header_banner: header_banner
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

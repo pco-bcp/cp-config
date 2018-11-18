@@ -1,0 +1,24 @@
+uuid: cf74a137-3c0f-4ce4-a8a8-c9ac855af16e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.challenge_page
+  module:
+    - text
+_core:
+  default_config_hash: quOCoXwBQjuomgCkuLcZ430gtCC0FWXDA4eJGGjtDEQ
+id: node.challenge_page.body
+field_name: body
+entity_type: node
+bundle: challenge_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

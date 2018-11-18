@@ -1,0 +1,17 @@
+uuid: 42baada6-eb40-4a47-9776-e89fbd5052ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Header Banner'
+type: header_banner
+description: 'Header banners that are used for homepage'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

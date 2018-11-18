@@ -1,0 +1,24 @@
+uuid: 18021e4a-8435-41c3-b778-b730cde24e98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_challenge_description
+    - node.type.challenge
+  module:
+    - text
+_core:
+  default_config_hash: 9KGb4SZO_-MSNGIfK2nd-fQjGbd9m9N7_9Y5ELcwwf4
+id: node.challenge.field_challenge_description
+field_name: field_challenge_description
+entity_type: node
+bundle: challenge
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

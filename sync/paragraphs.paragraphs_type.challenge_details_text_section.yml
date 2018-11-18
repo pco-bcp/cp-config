@@ -1,0 +1,11 @@
+uuid: bfc15e88-58e0-437c-8548-3901b7c3c1e7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pHz1gt__D64z4viPU6jPTn7jw1BZXel9fmi_al6aLcA
+id: challenge_details_text_section
+label: 'Challenge Details Text Section'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

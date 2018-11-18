@@ -1,0 +1,9 @@
+login_redirect:
+  default: /user
+  authenticated: ''
+  administrator: /en/admin/content
+  creator: ''
+  reviewer: ''
+  challenge_owner: /en/admin/content/mine
+_core:
+  default_config_hash: HPdrIYAmH8nz9_LVBzz1mb8Rq6r2XxdBPW59N4da4XA

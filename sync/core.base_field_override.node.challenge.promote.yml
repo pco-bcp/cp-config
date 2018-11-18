@@ -1,0 +1,24 @@
+uuid: 4d31811b-9938-42af-ad3d-f0d204eeab19
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.challenge
+_core:
+  default_config_hash: XGDs--_0duNP2akGvdZXwbH2ko1p2WQMD6ObM6BF33Y
+id: node.challenge.promote
+field_name: promote
+entity_type: node
+bundle: challenge
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

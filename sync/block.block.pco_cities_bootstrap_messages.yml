@@ -1,0 +1,41 @@
+uuid: 56dc9127-ec4b-4382-9cc6-57b80467f2de
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+    - user
+    - wxt_library
+  theme:
+    - pco_cities_bootstrap
+third_party_settings:
+  block_class:
+    classes: ''
+_core:
+  default_config_hash: '-F_UCHqn729w-2S62V979uAAs1N_HdG9vq_BepPVLWA'
+id: pco_cities_bootstrap_messages
+theme: pco_cities_bootstrap
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,35 @@
+uuid: bbf818c5-a3dd-4762-bd74-0272274d10e9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:515592a6-6209-4e2f-851f-ba2c996c1989'
+  module:
+    - block_class
+    - block_content
+    - wxt_library
+  theme:
+    - pco_cities_bootstrap
+third_party_settings:
+  block_class:
+    classes: ''
+id: cssblock
+theme: pco_cities_bootstrap
+region: footer
+weight: -9
+provider: null
+plugin: 'block_content:515592a6-6209-4e2f-851f-ba2c996c1989'
+settings:
+  id: 'block_content:515592a6-6209-4e2f-851f-ba2c996c1989'
+  label: 'css block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

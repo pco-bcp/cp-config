@@ -1,0 +1,10 @@
+uuid: eaf42f5d-c1d7-4a8b-b2be-1a6618369f6c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yMpajxJX611N7ft6XmKeoailmhn3tOjsUyDfzeEFE6Q
+id: challenges
+label: Challenges
+description: 'Menu of all the challenges'
+locked: false

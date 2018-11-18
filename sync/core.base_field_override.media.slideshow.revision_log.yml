@@ -1,0 +1,18 @@
+uuid: 1f9160e9-6fe7-4646-841a-d1bdb2b6dd08
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.slideshow
+id: media.slideshow.revision_log
+field_name: revision_log
+entity_type: media
+bundle: slideshow
+label: 'Revision Log'
+description: 'The log entry explaining the changes in this revision.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

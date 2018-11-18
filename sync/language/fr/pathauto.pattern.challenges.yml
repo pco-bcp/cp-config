@@ -1,0 +1,4 @@
+label: Défis
+relationships:
+  'node:langcode:language':
+    label: Langue

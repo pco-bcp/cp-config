@@ -1,0 +1,33 @@
+uuid: 8b84b2ef-332f-4c8a-b29d-4ef21e69fe8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.challenge_page.body
+    - field.field.node.challenge_page.field_challenge_sidebar_content
+    - node.type.challenge_page
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: XsQmVB1rkqMJ-p6ZPMwsjuUD4s9GVFsOPBe1D-1mhm0
+id: node.challenge_page.teaser
+targetEntityType: node
+bundle: challenge_page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_challenge_sidebar_content: true
+  langcode: true

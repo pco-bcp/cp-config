@@ -1,0 +1,29 @@
+display:
+  default:
+    display_title: Maître
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Appliquer
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      fields:
+        title:
+          separator: ', '
+        field_challenge_department:
+          separator: ', '
+        field_challenge_image:
+          separator: ', '
+      arguments:
+        title:
+          exception:
+            title: Tout
+  challenge_details_block:
+    display_options:
+      fields:
+        field_tags:
+          label: Mots-clés
+          separator: ', '
+      title: 'DÉTAILS DU DÉFI'

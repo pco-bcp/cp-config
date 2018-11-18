@@ -1,0 +1,79 @@
+uuid: 10bf01a4-b1f1-44ff-912b-605b4b22da76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage.field_homepage_header
+    - node.type.homepage
+  module:
+    - panelizer
+    - user
+third_party_settings:
+  panelizer:
+    enable: true
+    custom: false
+    allow: false
+    default: default
+    displays:
+      default:
+        blocks:
+          760c2fe9-54a8-4b3b-b6e5-5caaae59b6e0:
+            id: 'views_block:challenge_listing-block_1'
+            label: ''
+            provider: views
+            label_display: visible
+            views_label: ''
+            items_per_page: none
+            region: main
+            weight: 1
+            uuid: 760c2fe9-54a8-4b3b-b6e5-5caaae59b6e0
+            context_mapping: {  }
+          aa0f927e-c105-4364-8348-f80c53e588ab:
+            id: 'entity_field:node:field_homepage_header'
+            label: 'Homepage Header'
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: entity_reference_entity_view
+              settings:
+                view_mode: default
+              third_party_settings: {  }
+              weight: 0
+            region: main
+            weight: 0
+            uuid: aa0f927e-c105-4364-8348-f80c53e588ab
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+        id: panels_variant
+        label: Default
+        uuid: a6b55001-16e2-4e60-bf13-8f7f9274ad48
+        weight: 0
+        layout: bs_1col
+        layout_settings: {  }
+        page_title: '[node:title]'
+        storage_type: panelizer_default
+        storage_id: 'node:homepage:default:default'
+        builder: ipe
+        pattern: panelizer
+        static_context: {  }
+id: node.homepage.default
+targetEntityType: node
+bundle: homepage
+mode: default
+content:
+  field_homepage_header:
+    weight: 101
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,21 @@
+uuid: 34778db1-c93e-4d73-adc8-73d2194681f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - media
+_core:
+  default_config_hash: 044dMEaledHsO59umctaquYHLtF1XI8a7I9gLzVwhYc
+id: media.field_image_link
+field_name: field_image_link
+entity_type: media
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

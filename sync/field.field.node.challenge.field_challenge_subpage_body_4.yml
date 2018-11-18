@@ -1,0 +1,21 @@
+uuid: 306d222e-87c5-47fb-8c8b-b454bebb71cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_challenge_subpage_body_4
+    - node.type.challenge
+  module:
+    - text
+id: node.challenge.field_challenge_subpage_body_4
+field_name: field_challenge_subpage_body_4
+entity_type: node
+bundle: challenge
+label: 'Challenge Subpage Body 4'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,19 @@
+uuid: dba07fd0-2b3c-42b6-8ff2-c465d6aeab93
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photo_credit
+    - node.type.header_banner
+id: node.header_banner.field_photo_credit
+field_name: field_photo_credit
+entity_type: node
+bundle: header_banner
+label: 'Photo Credit'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

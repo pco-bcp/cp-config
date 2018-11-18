@@ -1,0 +1,41 @@
+uuid: b404d2cc-5828-41b3-aa29-2664fdd81ae0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.challenge_details_text_section.field_body
+    - field.field.paragraph.challenge_details_text_section.field_title
+    - paragraphs.paragraphs_type.challenge_details_text_section
+  module:
+    - text
+_core:
+  default_config_hash: V4uvIjNWzx0tEKL1-RJvwSTc3tywmICXZj7cPQ69838
+id: paragraph.challenge_details_text_section.default
+targetEntityType: paragraph
+bundle: challenge_details_text_section
+mode: default
+content:
+  field_body:
+    weight: 7
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_title:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  translation:
+    weight: 10
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

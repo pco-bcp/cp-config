@@ -1,0 +1,21 @@
+uuid: e231a058-9395-44af-aa36-e14834108416
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: RxmuZZlEpYZrJeyk4hzRAptIPunYl_7KyAP5e8206Go
+id: node.field_challenge_sidebar_content
+field_name: field_challenge_sidebar_content
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

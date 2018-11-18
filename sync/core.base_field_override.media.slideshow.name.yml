@@ -1,0 +1,20 @@
+uuid: 66dfdaf1-e0dc-4a64-a87c-226fd63ff3e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.slideshow
+id: media.slideshow.name
+field_name: name
+entity_type: media
+bundle: slideshow
+label: 'Media name'
+description: 'The name of this media.'
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,7 @@
+default_count: 3
+_core:
+  default_config_hash: AyAMDZsP2bEHUB4xFCLAJ_RcfdOJrQxy-ww04T278p0
+challenge_submission:
+  mailgun_key: key-6304cac902f346656a25adc4847b0670
+  mailgun_domain: impact.cds-snc.ca
+  from_email: no-reply@impact.cds-snc.ca

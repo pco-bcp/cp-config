@@ -1,0 +1,26 @@
+uuid: c9c86448-259c-45cf-83c6-533ff99596d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - pco_cities_bootstrap
+_core:
+  default_config_hash: kOtSOJp8yElDtZW1YSl9p0UOkxZvL_Qgz6g-NZBmznQ
+id: pco_cities_bootstrap_main_menu
+theme: pco_cities_bootstrap
+region: navigation
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

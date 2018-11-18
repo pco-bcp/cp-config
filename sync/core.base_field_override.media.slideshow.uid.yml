@@ -1,0 +1,20 @@
+uuid: ad6c744b-3ea4-4b73-a24e-783d63f4a3a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.slideshow
+id: media.slideshow.uid
+field_name: uid
+entity_type: media
+bundle: slideshow
+label: 'Publisher ID'
+description: 'The user ID of the media publisher.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media_entity\Entity\Media::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

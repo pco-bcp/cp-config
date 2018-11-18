@@ -1,0 +1,25 @@
+uuid: 6f41ce62-c030-4f4e-90b5-77b6a1ac4a9e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - pco_cities_bootstrap
+_core:
+  default_config_hash: vDz2e2VqXNbnFVJ3sN5H0ppRZ7L__XOt6seFT7K3zZs
+id: pco_cities_bootstrap_branding
+theme: pco_cities_bootstrap
+region: branding
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,79 @@
+uuid: 2773bd88-18c0-4096-be1d-c0d87a8c9a65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.header_banner.body
+    - field.field.node.header_banner.field_background_image
+    - field.field.node.header_banner.field_photo_credit
+    - node.type.header_banner
+  module:
+    - image
+    - lightning_media
+    - text
+id: node.header_banner.default
+targetEntityType: node
+bundle: header_banner
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_background_image:
+    type: image_image
+    weight: 1
+    settings:
+      preview_image_style: ''
+      progress_indicator: throbber
+    region: content
+    third_party_settings:
+      lightning_media:
+        file_links: true
+        remove_button: true
+  field_photo_credit:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 4
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 121
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

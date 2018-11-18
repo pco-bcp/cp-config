@@ -1,0 +1,464 @@
+uuid: 649f08d5-8579-4171-8a4f-8f82265d6eca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.challenge.field_challeng_subpage_url_1
+    - field.field.node.challenge.field_challeng_subpage_url_2
+    - field.field.node.challenge.field_challeng_subpage_url_3
+    - field.field.node.challenge.field_challeng_subpage_url_4
+    - field.field.node.challenge.field_challeng_subpage_url_5
+    - field.field.node.challenge.field_challenge_department
+    - field.field.node.challenge.field_challenge_description
+    - field.field.node.challenge.field_challenge_details_block
+    - field.field.node.challenge.field_challenge_email_contents
+    - field.field.node.challenge.field_challenge_image
+    - field.field.node.challenge.field_challenge_submission_email
+    - field.field.node.challenge.field_challenge_subpage_body_1
+    - field.field.node.challenge.field_challenge_subpage_body_2
+    - field.field.node.challenge.field_challenge_subpage_body_3
+    - field.field.node.challenge.field_challenge_subpage_body_4
+    - field.field.node.challenge.field_challenge_subpage_body_5
+    - field.field.node.challenge.field_challenge_subpage_enable_1
+    - field.field.node.challenge.field_challenge_subpage_enable_2
+    - field.field.node.challenge.field_challenge_subpage_enable_3
+    - field.field.node.challenge.field_challenge_subpage_enable_4
+    - field.field.node.challenge.field_challenge_subpage_enable_5
+    - field.field.node.challenge.field_challenge_subpage_title_1
+    - field.field.node.challenge.field_challenge_subpage_title_2
+    - field.field.node.challenge.field_challenge_subpage_title_3
+    - field.field.node.challenge.field_challenge_subpage_title_4
+    - field.field.node.challenge.field_challenge_subpage_title_5
+    - field.field.node.challenge.field_friendly_url
+    - field.field.node.challenge.field_single_line_teaser
+    - field.field.node.challenge.field_submission_guidelines_link
+    - field.field.node.challenge.field_tags
+    - node.type.challenge
+  module:
+    - image
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: true
+    custom: false
+    allow: false
+    default: default
+    displays:
+      default:
+        blocks:
+          6d6ee4f6-da24-4a13-9c58-641041a50e73:
+            id: 'entity_field:node:field_challenge_description'
+            label: Description
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: text_default
+              settings: {  }
+              third_party_settings: {  }
+              weight: 0
+              region: content
+            region: left
+            weight: -9
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+            uuid: 6d6ee4f6-da24-4a13-9c58-641041a50e73
+          e57e5920-08c3-4023-97fe-9e02d318573a:
+            id: 'system_menu_block:challenges'
+            label: Challenges
+            provider: system
+            label_display: '0'
+            level: 2
+            depth: 2
+            region: top
+            weight: 0
+            uuid: e57e5920-08c3-4023-97fe-9e02d318573a
+            context_mapping: {  }
+          20f6dd48-dfb6-4f57-8bd9-3df0a2665f3f:
+            id: 'entity_field:node:field_challenge_image'
+            label: 'Challenge Image'
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: visually_hidden
+              type: image_url
+              settings:
+                image_style: ''
+              third_party_settings: {  }
+              weight: 0
+            region: top
+            weight: -3
+            uuid: 20f6dd48-dfb6-4f57-8bd9-3df0a2665f3f
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+          1d969932-bf07-4a05-8c1b-c470c8400594:
+            id: 'entity_field:node:title'
+            label: Title
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: string
+              settings:
+                link_to_entity: false
+              third_party_settings: {  }
+              weight: 0
+            region: top
+            weight: -2
+            uuid: 1d969932-bf07-4a05-8c1b-c470c8400594
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+          1ce23b14-125f-4dfa-84c1-3042d22cd4bd:
+            id: 'entity_field:node:field_challenge_department'
+            label: Department
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: string
+              settings:
+                link_to_entity: false
+              third_party_settings: {  }
+              weight: 0
+            region: top
+            weight: -1
+            uuid: 1ce23b14-125f-4dfa-84c1-3042d22cd4bd
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+          df67b36c-fba9-4540-a479-3c8745ec402c:
+            id: 'entity_field:node:field_tags'
+            label: Tags
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: visually_hidden
+              type: entity_reference_label
+              settings:
+                link: false
+              third_party_settings: {  }
+              weight: 0
+            region: right
+            weight: 0
+            uuid: df67b36c-fba9-4540-a479-3c8745ec402c
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+          af406e09-f8d0-4905-b736-66c54e539657:
+            id: 'entity_field:node:field_challenge_details_block'
+            label: 'Challenge Details'
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: above
+              type: text_default
+              settings: {  }
+              third_party_settings: {  }
+              weight: 0
+            region: right
+            weight: 0
+            uuid: af406e09-f8d0-4905-b736-66c54e539657
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+        id: panels_variant
+        label: Default
+        uuid: 1c6488c5-2320-4181-bf2c-927a40c30593
+        weight: 0
+        layout: bs_2col_stacked
+        layout_settings:
+          layout:
+            wrapper: div
+            classes:
+              row: row
+            add_layout_class: 1
+            attributes: ''
+          regions:
+            top:
+              wrapper: div
+              classes:
+                col-sm-12: col-sm-12
+              add_region_classes: 1
+              attributes: ''
+            left:
+              wrapper: div
+              classes:
+                col-sm-12: col-sm-12
+                col-md-7: col-md-7
+              add_region_classes: 1
+              attributes: ''
+            right:
+              wrapper: div
+              classes:
+                col-sm-12: col-sm-12
+                col-md-5: col-md-5
+              add_region_classes: 1
+              attributes: ''
+            bottom:
+              wrapper: div
+              classes:
+                col-sm-12: col-sm-12
+              add_region_classes: 1
+              attributes: ''
+        page_title: ''
+        storage_type: panelizer_default
+        storage_id: 'node:challenge:default:default'
+        builder: standard
+        pattern: panelizer
+        static_context: {  }
+_core:
+  default_config_hash: '-2OokLvECFpiW6zmR2VNNuoiQiYPt8nRBbLdr-wYTrk'
+id: node.challenge.default
+targetEntityType: node
+bundle: challenge
+mode: default
+content:
+  field_challeng_subpage_url_1:
+    weight: 125
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_challeng_subpage_url_2:
+    weight: 126
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_challeng_subpage_url_3:
+    weight: 127
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_challeng_subpage_url_4:
+    weight: 128
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_challeng_subpage_url_5:
+    weight: 129
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_challenge_department:
+    weight: 107
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_challenge_description:
+    weight: 106
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_challenge_details_block:
+    weight: 112
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_challenge_email_contents:
+    weight: 114
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_challenge_image:
+    weight: 108
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_challenge_submission_email:
+    weight: 113
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_challenge_subpage_body_1:
+    weight: 115
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_challenge_subpage_body_2:
+    weight: 116
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_challenge_subpage_body_3:
+    weight: 117
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_challenge_subpage_body_4:
+    weight: 118
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_challenge_subpage_body_5:
+    weight: 119
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_challenge_subpage_enable_1:
+    weight: 130
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_challenge_subpage_enable_2:
+    weight: 131
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_challenge_subpage_enable_3:
+    weight: 132
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_challenge_subpage_enable_4:
+    weight: 133
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_challenge_subpage_enable_5:
+    weight: 134
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_challenge_subpage_title_1:
+    weight: 120
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_challenge_subpage_title_2:
+    weight: 121
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_challenge_subpage_title_3:
+    weight: 122
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_challenge_subpage_title_4:
+    weight: 123
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_challenge_subpage_title_5:
+    weight: 124
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_friendly_url:
+    weight: 135
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_single_line_teaser:
+    weight: 110
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_submission_guidelines_link:
+    weight: 136
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tags:
+    weight: 111
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

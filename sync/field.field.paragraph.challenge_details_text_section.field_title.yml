@@ -1,0 +1,21 @@
+uuid: 88b57db9-a7b4-40d4-ab5a-b91a5c6328b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.challenge_details_text_section
+_core:
+  default_config_hash: XMKSptVFY4BFeXHFW0MSeWgi_fHDO-nkmkUCMiI0CqA
+id: paragraph.challenge_details_text_section.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: challenge_details_text_section
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

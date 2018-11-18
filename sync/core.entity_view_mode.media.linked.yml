@@ -1,0 +1,16 @@
+uuid: 8d0dfaed-0282-4593-9bf0-484bac8701f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+    - media
+third_party_settings:
+  lightning_core:
+    description: ''
+_core:
+  default_config_hash: 9pWIwkg1r_GR8qqsoqPtkijFwZboZ7uCRsPsiuPQ7Qs
+id: media.linked
+label: Linked
+targetEntityType: media
+cache: true

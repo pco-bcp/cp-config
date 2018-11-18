@@ -1,0 +1,45 @@
+display:
+  default:
+    display_options:
+      header:
+        area:
+          content:
+            format: rich_text
+            value: "<p>Help us solve some of Canada’s biggest challenges.<br />\r\nExplore, search and respond to a challenge.</p>\r\n"
+      exposed_form:
+        options:
+          submit_button: Appliquer
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      fields:
+        title:
+          separator: ', '
+        field_challenge_department:
+          separator: ', '
+        field_challenge_image:
+          separator: ', '
+        field_single_line_teaser:
+          separator: ', '
+        field_friendly_url:
+          separator: ', '
+      title: Défis
+    display_title: Maître
+  block_1:
+    display_options:
+      footer:
+        area:
+          content:
+            format: full_html
+      header:
+        area:
+          content:
+            format: rich_text
+      title: 'Défis en vedette'
+  block_3:
+    display_options:
+      header:
+        area:
+          content:
+            format: rich_text

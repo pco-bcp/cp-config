@@ -1,0 +1,18 @@
+uuid: 8a75dfbe-891d-49a7-88f3-47b966118d92
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.challenge_news
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.challenge_news
+target_entity_type_id: node
+target_bundle: challenge_news
+default_langcode: site_default
+language_alterable: true

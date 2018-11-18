@@ -1,0 +1,22 @@
+uuid: cdf6aa9c-cc28-48a5-9dab-4f4ea8085f0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.challenge_news
+  module:
+    - text
+id: node.challenge_news.body
+field_name: body
+entity_type: node
+bundle: challenge_news
+label: Body
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

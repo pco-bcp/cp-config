@@ -1,0 +1,15 @@
+uuid: 3014cd60-e708-4758-ac84-9002b092f01d
+langcode: en
+status: true
+dependencies: {  }
+name: ici_main_image
+label: 'ICI Main Image'
+effects:
+  a60751ce-a424-4268-a621-166f3d778964:
+    uuid: a60751ce-a424-4268-a621-166f3d778964
+    id: image_crop
+    weight: 1
+    data:
+      width: 864
+      height: 445
+      anchor: center-center

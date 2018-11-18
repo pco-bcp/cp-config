@@ -1,0 +1,19 @@
+uuid: 3d74154e-6dcd-4473-a2f6-212d55404711
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: 2PMi9FsElv2aX8dWgsSTPCGmwAtaFs1P2Z-9-zHREQk
+name: 'Challenge Subpage'
+type: challenge_page
+description: 'A regular page within a challenge that has a title and body field'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

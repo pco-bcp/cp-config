@@ -1,0 +1,14 @@
+third_party_settings:
+  panelizer:
+    displays:
+      default:
+        blocks:
+          db41ae5f-3c3c-4509-b58d-a432dfbbc5fb:
+            label: Corps
+          99aa877a-8fa6-4bef-9262-e051ddc8a100:
+            label: Défis
+          a74e70a9-8a64-41e5-97d7-7cd274c6ca58:
+            label: Titre
+          f35ff471-93cb-43ff-9645-bf8b637b74c3:
+            label: Onglets
+        label: 'Par défaut'

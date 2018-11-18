@@ -1,0 +1,35 @@
+uuid: a936a10f-c0c2-4253-8f9b-19cab9ed250c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.challenge_news.body
+    - field.field.node.challenge_news.field_challenge
+    - field.field.node.challenge_news.field_sidebar
+    - field.field.node.challenge_news.field_type
+    - node.type.challenge_news
+  module:
+    - text
+    - user
+id: node.challenge_news.teaser
+targetEntityType: node
+bundle: challenge_news
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_challenge: true
+  field_sidebar: true
+  field_type: true
+  langcode: true

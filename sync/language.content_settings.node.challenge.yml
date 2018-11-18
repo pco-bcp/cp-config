@@ -1,0 +1,20 @@
+uuid: 25339a85-8736-4b82-9243-4e279791bdc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.challenge
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: LEAAM3UVUVVsJ-n8T5gci0ZjJtLPnIXJICjX-A4Ger4
+id: node.challenge
+target_entity_type_id: node
+target_bundle: challenge
+default_langcode: current_interface
+language_alterable: true

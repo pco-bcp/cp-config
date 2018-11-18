@@ -1,0 +1,13 @@
+name: 'Impact Canada'
+mail: iiu-uii@pco-bcp.gc.ca
+slogan: 'Collaborative open source project led by the Government of Canada'
+page:
+  403: ''
+  404: ''
+  front: /node/19
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: uNOHaKWnoIbi-Q7d7NTqX2PeF_cwCaM9tTmwBoM2COA

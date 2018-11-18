@@ -1,0 +1,50 @@
+uuid: 66bbc9eb-79da-4bd4-8f26-e01a8615487e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.challenge.field_challenge_department
+    - field.field.node.challenge.field_challenge_description
+    - field.field.node.challenge.field_challenge_details_block
+    - field.field.node.challenge.field_challenge_image
+    - field.field.node.challenge.field_single_line_teaser
+    - field.field.node.challenge.field_tags
+    - node.type.challenge
+  module:
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+_core:
+  default_config_hash: KiNpoqZ2XGNRLSpD-pieW0688bZBFphvQxGbKSjhtGo
+id: node.challenge.teaser
+targetEntityType: node
+bundle: challenge
+mode: teaser
+content:
+  field_challenge_description:
+    type: text_trimmed
+    weight: 2
+    region: content
+    label: visually_hidden
+    settings:
+      trim_length: 250
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_challenge_department: true
+  field_challenge_details_block: true
+  field_challenge_image: true
+  field_single_line_teaser: true
+  field_tags: true
+  langcode: true

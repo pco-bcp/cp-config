@@ -1,0 +1,27 @@
+definitions:
+  user__page:
+    menu_name: account
+    parent: 'menu_link_content:741ab8c5-bdae-495a-b805-245e681adc12'
+    weight: -10
+    expanded: false
+    enabled: true
+  user__logout:
+    menu_name: account
+    parent: 'menu_link_content:741ab8c5-bdae-495a-b805-245e681adc12'
+    weight: 10
+    expanded: false
+    enabled: true
+  wxt__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: false
+  contact__site_page:
+    weight: -50
+    menu_name: footer
+    parent: ''
+    enabled: false
+    expanded: false
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM

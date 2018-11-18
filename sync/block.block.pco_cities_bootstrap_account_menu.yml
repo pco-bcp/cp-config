@@ -1,0 +1,26 @@
+uuid: d8614040-2e74-4bf8-9f53-df929539d75d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - pco_cities_bootstrap
+_core:
+  default_config_hash: gw0z3D30dkHIdz6QU6r3Cs7ZJXqWbnYf-VyChJQOhwI
+id: pco_cities_bootstrap_account_menu
+theme: pco_cities_bootstrap
+region: navigation_collapsible
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

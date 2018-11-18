@@ -1,0 +1,12 @@
+uuid: 2708e4ca-2e07-4bb1-af62-eeaeb33d1d2f
+langcode: en
+status: true
+dependencies: {  }
+id: test_contact_form
+label: 'Test contact form'
+recipients:
+  - chris@loogart.com
+reply: ''
+weight: 0
+message: 'Thanks for submitting your form!'
+redirect: /about

@@ -1,0 +1,19 @@
+uuid: e19c75aa-1f11-45f5-8d90-1694f477dfbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_challenge_submission_email
+    - node.type.challenge
+id: node.challenge.field_challenge_submission_email
+field_name: field_challenge_submission_email
+entity_type: node
+bundle: challenge
+label: 'Submission Email'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

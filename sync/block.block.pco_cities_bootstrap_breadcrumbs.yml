@@ -1,0 +1,37 @@
+uuid: 49d161b5-e6cf-4085-b932-50a093cd7391
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+    - wxt_library
+  theme:
+    - pco_cities_bootstrap
+third_party_settings:
+  block_class:
+    classes: ''
+_core:
+  default_config_hash: 0el2Z9N1JCkwbmJU4LbH-0uvkSrcWF04sxglQ-_F7Uo
+id: pco_cities_bootstrap_breadcrumbs
+theme: pco_cities_bootstrap
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }
