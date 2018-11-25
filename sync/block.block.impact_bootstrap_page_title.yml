@@ -12,7 +12,7 @@ _core:
 id: impact_bootstrap_page_title
 theme: impact_bootstrap
 region: header
-weight: -9
+weight: -11
 provider: null
 plugin: page_title_block
 settings:

@@ -5,6 +5,7 @@ dependencies:
   config:
     - views.view.challenge_listing
   module:
+    - system
     - views
     - wxt_library
   theme:
@@ -26,5 +27,10 @@ visibility:
   panels_title:
     id: panels_title
     enabled: 0
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: "/challenges\r\n/defis"
     negate: false
     context_mapping: {  }

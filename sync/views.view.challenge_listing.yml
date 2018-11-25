@@ -579,7 +579,7 @@ display:
         title: false
         header: false
         sorts: true
-      title: 'Challenge Spotlight'
+      title: 'Impact Canada Challenge Hub'
       header:
         area:
           id: area
@@ -591,7 +591,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: "\n"
+            value: 'The Government of Canada wants innovative solutions to economic, environmental, and social problems.'
             format: rich_text
           plugin_id: text
     cache_metadata:
