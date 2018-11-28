@@ -1,0 +1,30 @@
+uuid: 0402b4be-457b-47ff-84ce-7987d1aa2ceb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-new
+  module:
+    - system
+    - wxt_library
+  theme:
+    - impact_bootstrap
+id: footernew
+theme: impact_bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-new'
+settings:
+  id: 'system_menu_block:footer-new'
+  label: 'Footer New'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }
