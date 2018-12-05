@@ -30,12 +30,14 @@ dependencies:
     - field.field.node.challenge.field_challenge_subpage_title_4
     - field.field.node.challenge.field_challenge_subpage_title_5
     - field.field.node.challenge.field_friendly_url
+    - field.field.node.challenge.field_initiative_type
     - field.field.node.challenge.field_single_line_teaser
     - field.field.node.challenge.field_submission_guidelines_link
     - field.field.node.challenge.field_tags
     - node.type.challenge
   module:
     - image
+    - options
     - panelizer
     - text
     - user
@@ -430,6 +432,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_initiative_type:
+    weight: 137
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
     region: content
   field_single_line_teaser:
     weight: 110

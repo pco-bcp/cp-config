@@ -1,0 +1,23 @@
+uuid: 038a73f9-df70-4ee8-903e-7bb515e1d551
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_initiative_type
+    - node.type.challenge
+  module:
+    - options
+id: node.challenge.field_initiative_type
+field_name: field_initiative_type
+entity_type: node
+bundle: challenge
+label: 'Initiative type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Challenge
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,27 @@
+uuid: 62621221-5f75-492f-9755-e16de8620b87
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_initiative_type
+field_name: field_initiative_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Challenge
+      label: Challenge
+    -
+      value: 'Other Initiative'
+      label: 'Other Initiative'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

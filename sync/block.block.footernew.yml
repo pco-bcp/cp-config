@@ -12,7 +12,7 @@ dependencies:
 id: footernew
 theme: impact_bootstrap
 region: footer
-weight: 0
+weight: -11
 provider: null
 plugin: 'system_menu_block:footer-new'
 settings:
