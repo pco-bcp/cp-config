@@ -1,0 +1,37 @@
+uuid: 5ec4be3e-709a-472b-bd70-7ebadd27055d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1e1cfcbd-e89a-455b-a839-ba1309e1fa9f'
+  module:
+    - block_content
+    - system
+    - wxt_library
+  theme:
+    - impact_bootstrap
+id: jumbotronen
+theme: impact_bootstrap
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:1e1cfcbd-e89a-455b-a839-ba1309e1fa9f'
+settings:
+  id: 'block_content:1e1cfcbd-e89a-455b-a839-ba1309e1fa9f'
+  label: 'Jumbotron (en)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }
