@@ -1,4 +1,4 @@
-uuid: 5ec4be3e-709a-472b-bd70-7ebadd27055d
+uuid: b560a199-be42-4d89-b0bc-2bc038586bb7
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ dependencies:
     - wxt_library
   theme:
     - impact_bootstrap
-id: jumbotronen
+id: jumbotron
 theme: impact_bootstrap
 region: highlighted
 weight: 0
@@ -18,7 +18,7 @@ provider: null
 plugin: 'block_content:1e1cfcbd-e89a-455b-a839-ba1309e1fa9f'
 settings:
   id: 'block_content:1e1cfcbd-e89a-455b-a839-ba1309e1fa9f'
-  label: 'Jumbotron (en)'
+  label: Jumbotron
   provider: block_content
   label_display: '0'
   status: true
