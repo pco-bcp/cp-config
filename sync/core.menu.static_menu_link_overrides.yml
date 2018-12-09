@@ -18,10 +18,10 @@ definitions:
     expanded: false
     enabled: false
   contact__site_page:
-    weight: -50
     menu_name: footer
-    parent: ''
-    enabled: false
+    parent: 'menu_link_content:f431629b-cdec-4a1c-a102-915c7146f11f'
+    weight: -48
     expanded: false
+    enabled: true
 _core:
   default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM

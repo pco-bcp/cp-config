@@ -1,8 +1,0 @@
-uuid: a542bc88-d87b-4a3a-8853-b70d8bf779fa
-langcode: en
-status: true
-dependencies: {  }
-id: footer-new
-label: 'Footer New'
-description: 'Footer New Menu'
-locked: false
