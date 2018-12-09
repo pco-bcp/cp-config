@@ -1,0 +1,37 @@
+uuid: 0baaeb40-1e37-4274-a7cd-94eb18c88fdf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:40d75126-326f-4097-81c2-5c6cdc64adf3'
+  module:
+    - block_content
+    - system
+    - wxt_library
+  theme:
+    - impact_bootstrap
+id: footerright
+theme: impact_bootstrap
+region: footer_right
+weight: 0
+provider: null
+plugin: 'block_content:40d75126-326f-4097-81c2-5c6cdc64adf3'
+settings:
+  id: 'block_content:40d75126-326f-4097-81c2-5c6cdc64adf3'
+  label: 'Footer Right'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }
