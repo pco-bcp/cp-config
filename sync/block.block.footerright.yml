@@ -6,7 +6,6 @@ dependencies:
     - 'block_content:basic:40d75126-326f-4097-81c2-5c6cdc64adf3'
   module:
     - block_content
-    - system
     - wxt_library
   theme:
     - impact_bootstrap
@@ -25,11 +24,6 @@ settings:
   info: ''
   view_mode: full
 visibility:
-  request_path:
-    id: request_path
-    pages: '<front>'
-    negate: false
-    context_mapping: {  }
   panels_title:
     id: panels_title
     enabled: 0

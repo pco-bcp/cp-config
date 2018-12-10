@@ -12,8 +12,8 @@ dependencies:
     - impact_bootstrap
 id: jumbotron
 theme: impact_bootstrap
-region: highlighted
-weight: 0
+region: content
+weight: -11
 provider: null
 plugin: 'block_content:1e1cfcbd-e89a-455b-a839-ba1309e1fa9f'
 settings:
