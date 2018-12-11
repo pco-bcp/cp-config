@@ -1,0 +1,36 @@
+uuid: ab61175d-5691-448a-b088-b408c2c9ef31
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.challenge_listing
+  module:
+    - system
+    - views
+    - wxt_library
+  theme:
+    - impact_bootstrap
+id: views_block__challenge_listing_other_initiatives
+theme: impact_bootstrap
+region: content_footer
+weight: -11
+provider: null
+plugin: 'views_block:challenge_listing-other_initiatives'
+settings:
+  id: 'views_block:challenge_listing-other_initiatives'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

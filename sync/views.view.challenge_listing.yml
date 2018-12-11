@@ -559,7 +559,7 @@ display:
           entity_type: node
           entity_field: created
           plugin_id: date
-      title: Challenges
+      title: 'Other Initiatives'
       header:
         area:
           id: area
@@ -814,10 +814,25 @@ display:
       defaults:
         filters: false
         filter_groups: false
+        header: false
       filter_groups:
         operator: AND
         groups:
           1: AND
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: "\r\n"
+            format: rich_text
+          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:

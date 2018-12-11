@@ -1,0 +1,37 @@
+uuid: fb49e04e-e9f0-4d75-99b4-43cb96e1f905
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:99aa4433-3b33-4e2c-a330-602cab601b9d'
+  module:
+    - block_content
+    - system
+    - wxt_library
+  theme:
+    - impact_bootstrap
+id: calltoactionblue
+theme: impact_bootstrap
+region: content_footer
+weight: -10
+provider: null
+plugin: 'block_content:99aa4433-3b33-4e2c-a330-602cab601b9d'
+settings:
+  id: 'block_content:99aa4433-3b33-4e2c-a330-602cab601b9d'
+  label: 'Call to Action blue'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }
