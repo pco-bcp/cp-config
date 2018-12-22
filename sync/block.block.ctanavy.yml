@@ -1,24 +1,24 @@
-uuid: cbb4cbf8-2c9d-4836-b54b-9e4d9dcca533
+uuid: dfb1ddd1-b3cc-4323-8c39-7551d149cf06
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:bd985543-6a0c-49ce-8978-4a0d3286d744'
+    - 'block_content:basic:21d5fef7-8ee5-48f6-9e05-485ffd44af22'
   module:
     - block_content
     - system
     - wxt_library
   theme:
     - impact_bootstrap
-id: calltoactionpink
+id: ctanavy
 theme: impact_bootstrap
 region: content_footer
 weight: 0
 provider: null
-plugin: 'block_content:bd985543-6a0c-49ce-8978-4a0d3286d744'
+plugin: 'block_content:21d5fef7-8ee5-48f6-9e05-485ffd44af22'
 settings:
-  id: 'block_content:bd985543-6a0c-49ce-8978-4a0d3286d744'
-  label: 'CTA pink'
+  id: 'block_content:21d5fef7-8ee5-48f6-9e05-485ffd44af22'
+  label: 'CTA navy'
   provider: block_content
   label_display: '0'
   status: true
@@ -27,7 +27,7 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/about\r\n/a-propos"
+    pages: "/news\r\n/nouvelles"
     negate: false
     context_mapping: {  }
   panels_title:

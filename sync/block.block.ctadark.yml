@@ -1,24 +1,24 @@
-uuid: cbb4cbf8-2c9d-4836-b54b-9e4d9dcca533
+uuid: b9f0c507-7fe9-4adf-ad66-a52b51cb2cb1
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:bd985543-6a0c-49ce-8978-4a0d3286d744'
+    - 'block_content:basic:51317ecd-e557-4da5-9f5c-d3fde32f672f'
   module:
     - block_content
     - system
     - wxt_library
   theme:
     - impact_bootstrap
-id: calltoactionpink
+id: ctadark
 theme: impact_bootstrap
 region: content_footer
 weight: 0
 provider: null
-plugin: 'block_content:bd985543-6a0c-49ce-8978-4a0d3286d744'
+plugin: 'block_content:51317ecd-e557-4da5-9f5c-d3fde32f672f'
 settings:
-  id: 'block_content:bd985543-6a0c-49ce-8978-4a0d3286d744'
-  label: 'CTA pink'
+  id: 'block_content:51317ecd-e557-4da5-9f5c-d3fde32f672f'
+  label: 'CTA dark'
   provider: block_content
   label_display: '0'
   status: true
@@ -27,7 +27,7 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/about\r\n/a-propos"
+    pages: "/how-it-works\r\n/comment-ca-marche"
     negate: false
     context_mapping: {  }
   panels_title:

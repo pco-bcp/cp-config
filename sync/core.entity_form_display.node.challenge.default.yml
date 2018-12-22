@@ -11,8 +11,10 @@ dependencies:
     - field.field.node.challenge.field_challenge_department
     - field.field.node.challenge.field_challenge_description
     - field.field.node.challenge.field_challenge_details_block
+    - field.field.node.challenge.field_challenge_details_footer
     - field.field.node.challenge.field_challenge_email_contents
     - field.field.node.challenge.field_challenge_image
+    - field.field.node.challenge.field_challenge_status
     - field.field.node.challenge.field_challenge_submission_email
     - field.field.node.challenge.field_challenge_subpage_body_1
     - field.field.node.challenge.field_challenge_subpage_body_2
@@ -31,6 +33,8 @@ dependencies:
     - field.field.node.challenge.field_challenge_subpage_title_5
     - field.field.node.challenge.field_friendly_url
     - field.field.node.challenge.field_initiative_type
+    - field.field.node.challenge.field_nav_title
+    - field.field.node.challenge.field_order
     - field.field.node.challenge.field_single_line_teaser
     - field.field.node.challenge.field_submission_guidelines_link
     - field.field.node.challenge.field_tags
@@ -50,7 +54,7 @@ third_party_settings:
         - field_challeng_subpage_url_1
         - field_challenge_subpage_body_1
       parent_name: ''
-      weight: 3
+      weight: 2
       format_type: details
       format_settings:
         id: ''
@@ -65,7 +69,7 @@ third_party_settings:
         - field_challeng_subpage_url_2
         - field_challenge_subpage_body_2
       parent_name: ''
-      weight: 4
+      weight: 3
       format_type: details
       format_settings:
         id: ''
@@ -76,8 +80,11 @@ third_party_settings:
     group_challenge_details:
       children:
         - field_initiative_type
+        - field_challenge_status
         - title
+        - field_nav_title
         - field_friendly_url
+        - field_order
         - field_challenge_department
         - field_single_line_teaser
         - field_challenge_submission_email
@@ -87,8 +94,9 @@ third_party_settings:
         - field_challenge_description
         - field_tags
         - field_challenge_details_block
+        - field_challenge_details_footer
       parent_name: ''
-      weight: 2
+      weight: 1
       format_type: details
       format_settings:
         label: 'Challenge Details'
@@ -104,7 +112,7 @@ third_party_settings:
         - field_challeng_subpage_url_3
         - field_challenge_subpage_body_3
       parent_name: ''
-      weight: 5
+      weight: 4
       format_type: details
       format_settings:
         id: ''
@@ -119,7 +127,7 @@ third_party_settings:
         - field_challeng_subpage_url_4
         - field_challenge_subpage_body_4
       parent_name: ''
-      weight: 6
+      weight: 5
       format_type: details
       format_settings:
         id: ''
@@ -134,7 +142,7 @@ third_party_settings:
         - field_challeng_subpage_url_5
         - field_challenge_subpage_body_5
       parent_name: ''
-      weight: 7
+      weight: 6
       format_type: details
       format_settings:
         id: ''
@@ -190,7 +198,7 @@ content:
     type: string_textfield
     region: content
   field_challenge_department:
-    weight: 46
+    weight: 49
     settings:
       size: 60
       placeholder: ''
@@ -198,7 +206,7 @@ content:
     type: string_textfield
     region: content
   field_challenge_description:
-    weight: 52
+    weight: 55
     settings:
       rows: 9
       summary_rows: 3
@@ -207,7 +215,15 @@ content:
     type: text_textarea_with_summary
     region: content
   field_challenge_details_block:
-    weight: 54
+    weight: 57
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_challenge_details_footer:
+    weight: 58
     settings:
       rows: 5
       placeholder: ''
@@ -215,7 +231,7 @@ content:
     type: text_textarea
     region: content
   field_challenge_email_contents:
-    weight: 49
+    weight: 52
     settings:
       size: 60
       placeholder: ''
@@ -224,14 +240,20 @@ content:
     region: content
   field_challenge_image:
     type: image_image
-    weight: 51
+    weight: 54
     settings:
       preview_image_style: thumbnail
       progress_indicator: throbber
     region: content
     third_party_settings: {  }
+  field_challenge_status:
+    weight: 44
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   field_challenge_submission_email:
-    weight: 48
+    weight: 51
     settings:
       size: 60
       placeholder: ''
@@ -255,7 +277,7 @@ content:
     type: text_textarea
     region: content
   field_challenge_subpage_body_3:
-    weight: 40
+    weight: 41
     settings:
       rows: 5
       placeholder: ''
@@ -354,7 +376,7 @@ content:
     type: string_textfield
     region: content
   field_friendly_url:
-    weight: 45
+    weight: 47
     settings:
       size: 60
       placeholder: ''
@@ -367,8 +389,23 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
+  field_nav_title:
+    weight: 46
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_order:
+    weight: 48
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
   field_single_line_teaser:
-    weight: 47
+    weight: 50
     settings:
       size: 60
       placeholder: ''
@@ -376,13 +413,13 @@ content:
     type: string_textfield
     region: content
   field_submission_guidelines_link:
-    weight: 50
+    weight: 53
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_tags:
-    weight: 53
+    weight: 56
     settings:
       match_operator: CONTAINS
       size: 60
@@ -392,14 +429,14 @@ content:
     region: content
   langcode:
     type: language_select
-    weight: 8
+    weight: 7
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   moderation_state:
     type: moderation_state_default
-    weight: 11
+    weight: 10
     settings: {  }
     region: content
     third_party_settings: {  }
@@ -407,25 +444,25 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 12
+    weight: 11
     third_party_settings: {  }
     region: content
   title:
     type: string_textfield
-    weight: 44
+    weight: 45
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 9
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
   uid:
     type: options_select
-    weight: 10
+    weight: 9
     settings: {  }
     region: content
     third_party_settings: {  }

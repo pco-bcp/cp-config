@@ -1,30 +1,22 @@
-uuid: 9204a9df-c3cc-4a84-8832-572a89341738
+uuid: d748a47e-f0e1-4613-8c05-88b06b523272
 langcode: en
-status: true
+status: false
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.challenge_news.body
     - field.field.node.challenge_news.field_challenge
     - field.field.node.challenge_news.field_challenge_department
     - field.field.node.challenge_news.field_image
-    - field.field.node.challenge_news.field_published_date
     - node.type.challenge_news
   module:
-    - datetime
     - image
-    - panelizer
     - text
     - user
-third_party_settings:
-  panelizer:
-    enable: false
-    custom: false
-    allow: false
-    default: default
-id: node.challenge_news.default
+id: node.challenge_news.full
 targetEntityType: node
 bundle: challenge_news
-mode: default
+mode: full
 content:
   body:
     label: hidden
@@ -58,19 +50,8 @@ content:
     third_party_settings: {  }
     type: image
     region: content
-  field_published_date:
-    weight: 107
-    label: above
-    settings:
-      timezone_override: ''
-      format_type: month_day_year
-    third_party_settings: {  }
-    type: datetime_default
-    region: content
   links:
     weight: 100
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   langcode: true

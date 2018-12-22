@@ -1,0 +1,21 @@
+uuid: 59c6ef8c-4cc5-4675-a379-c16cd1c746de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_published_date
+    - node.type.challenge_news
+  module:
+    - datetime
+id: node.challenge_news.field_published_date
+field_name: field_published_date
+entity_type: node
+bundle: challenge_news
+label: 'Published date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

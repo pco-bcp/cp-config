@@ -1,0 +1,22 @@
+uuid: f093f4d4-1c02-4998-b78b-d260b50c6174
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.challenge_news
+id: node.challenge_news.promote
+field_name: promote
+entity_type: node
+bundle: challenge_news
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

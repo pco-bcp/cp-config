@@ -1,17 +1,17 @@
-uuid: d59bed46-1192-4776-8568-120a37f4ea84
+uuid: 58e1d851-73c7-4543-927f-ea109f262b89
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_type
+    - field.storage.node.field_challenge_department
     - node.type.challenge_news
-id: node.challenge_news.field_type
-field_name: field_type
+id: node.challenge_news.field_challenge_department
+field_name: field_challenge_department
 entity_type: node
 bundle: challenge_news
-label: Type
+label: Department
 description: ''
-required: true
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''

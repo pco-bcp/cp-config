@@ -1,0 +1,19 @@
+uuid: 5a8cfd52-23b1-4f8c-a74b-5dafdac07900
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nav_title
+    - node.type.challenge
+id: node.challenge.field_nav_title
+field_name: field_nav_title
+entity_type: node
+bundle: challenge
+label: 'Nav Title'
+description: 'The title to place in the nav bar adjacent to other sub-pages'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

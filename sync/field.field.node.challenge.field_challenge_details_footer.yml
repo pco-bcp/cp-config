@@ -1,0 +1,21 @@
+uuid: be05c734-1b0b-4540-92f8-29c01bfeadb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_challenge_details_footer
+    - node.type.challenge
+  module:
+    - text
+id: node.challenge.field_challenge_details_footer
+field_name: field_challenge_details_footer
+entity_type: node
+bundle: challenge
+label: 'Challenge Details Footer'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

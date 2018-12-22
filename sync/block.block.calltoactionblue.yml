@@ -18,7 +18,7 @@ provider: null
 plugin: 'block_content:99aa4433-3b33-4e2c-a330-602cab601b9d'
 settings:
   id: 'block_content:99aa4433-3b33-4e2c-a330-602cab601b9d'
-  label: 'Call to Action blue'
+  label: 'CTA blue'
   provider: block_content
   label_display: '0'
   status: true

@@ -1,0 +1,23 @@
+uuid: adf304db-fe79-4680-8d87-a8380891109a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_narrow_page
+    - node.type.challenge_page
+id: node.challenge_page.field_narrow_page
+field_name: field_narrow_page
+entity_type: node
+bundle: challenge_page
+label: 'Narrow page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,11 +1,11 @@
-uuid: 39e1e640-cee7-4847-990c-937eaeea08f4
+uuid: 8b0235bc-fcf6-4106-8d63-91647a09f02a
 langcode: en
-status: true
+status: false
 dependencies:
   config:
+    - core.entity_view_mode.node.challenge_banner
     - field.field.node.challenge_page.body
     - field.field.node.challenge_page.field_challenge_sidebar_content
-    - field.field.node.challenge_page.field_narrow_page
     - field.field.node.challenge_page.field_parent_challenge
     - node.type.challenge_page
   module:
@@ -14,7 +14,7 @@ dependencies:
     - user
 third_party_settings:
   panelizer:
-    enable: false
+    enable: true
     custom: false
     allow: false
     default: default
@@ -157,10 +157,10 @@ third_party_settings:
         static_context: {  }
 _core:
   default_config_hash: u6MRMF8aRZZIJB86NjSbeQ8Z3z9VPgY39T6Zpw_bAZc
-id: node.challenge_page.default
+id: node.challenge_page.challenge_banner
 targetEntityType: node
 bundle: challenge_page
-mode: default
+mode: challenge_banner
 content:
   body:
     label: hidden
@@ -168,16 +168,6 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
-    region: content
-  field_narrow_page:
-    weight: 103
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    type: boolean
     region: content
   field_parent_challenge:
     weight: 102

@@ -1,0 +1,23 @@
+uuid: 71547bbc-0671-44b5-a404-eb61872fb289
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_narrow_page
+    - node.type.page
+id: node.page.field_narrow_page
+field_name: field_narrow_page
+entity_type: node
+bundle: page
+label: 'Narrow page'
+description: 'Check this option to render the content in a narrow column.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

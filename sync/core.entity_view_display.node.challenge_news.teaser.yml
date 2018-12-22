@@ -6,12 +6,23 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.challenge_news.body
     - field.field.node.challenge_news.field_challenge
-    - field.field.node.challenge_news.field_sidebar
-    - field.field.node.challenge_news.field_type
+    - field.field.node.challenge_news.field_challenge_department
+    - field.field.node.challenge_news.field_image
+    - field.field.node.challenge_news.field_published_date
+    - image.style.large
     - node.type.challenge_news
   module:
+    - datetime
+    - image
+    - panelizer
     - text
     - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
 id: node.challenge_news.teaser
 targetEntityType: node
 bundle: challenge_news
@@ -20,16 +31,38 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 2
     settings:
-      trim_length: 600
+      trim_length: 300
     third_party_settings: {  }
     region: content
-  links:
-    weight: 100
+  field_challenge_department:
+    type: string
+    weight: 1
     region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+  field_published_date:
+    type: datetime_default
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: month_day_year
+    third_party_settings: {  }
 hidden:
   field_challenge: true
-  field_sidebar: true
-  field_type: true
   langcode: true
+  links: true
