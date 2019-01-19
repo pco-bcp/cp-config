@@ -68,9 +68,6 @@ display:
           expose:
             label: Langue
       title: Média
-      empty:
-        area_text_custom:
-          content: 'Aucun contenu disponible.'
   media_page_list:
     display_title: Média
     display_options:

@@ -1,0 +1,21 @@
+uuid: 54af3f5d-0a39-4fb7-9313-1e3a530fe801
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_key_date
+    - node.type.key_dates
+  module:
+    - datetime
+id: node.key_dates.field_key_date
+field_name: field_key_date
+entity_type: node
+bundle: key_dates
+label: 'Key Date'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

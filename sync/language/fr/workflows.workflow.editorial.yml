@@ -1,4 +1,13 @@
 type_settings:
+  transitions:
+    archived_draft:
+      label: 'Restaurer le brouillon'
+    archive:
+      label: Archiver
+    create_new_draft:
+      label: 'Créer un nouveau brouillon'
+    publish:
+      label: Publier
   states:
     archived:
       label: Archivé(e)
@@ -6,14 +15,4 @@ type_settings:
       label: Brouillon
     published:
       label: Publié
-  transitions:
-    archive:
-      label: Archiver
-    archived_draft:
-      label: 'Restaurer le brouillon'
-    archived_published:
-      label: Restaurer
-    create_new_draft:
-      label: 'Créer un nouveau brouillon'
-    publish:
-      label: Publier
+label: Éditorial

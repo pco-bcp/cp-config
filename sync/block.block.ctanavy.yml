@@ -13,7 +13,7 @@ dependencies:
 id: ctanavy
 theme: impact_bootstrap
 region: content_footer
-weight: 0
+weight: -10
 provider: null
 plugin: 'block_content:21d5fef7-8ee5-48f6-9e05-485ffd44af22'
 settings:

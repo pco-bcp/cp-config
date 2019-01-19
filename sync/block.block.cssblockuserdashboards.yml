@@ -1,0 +1,46 @@
+uuid: 4582ab3a-0f6a-4381-8d3e-885795ece91d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:afe92301-cbb3-4004-9e40-a4c8bb1e6c73'
+  module:
+    - block_content
+    - system
+    - user
+    - wxt_library
+  theme:
+    - impact_bootstrap
+id: cssblockuserdashboards
+theme: impact_bootstrap
+region: footer
+weight: -12
+provider: null
+plugin: 'block_content:afe92301-cbb3-4004-9e40-a4c8bb1e6c73'
+settings:
+  id: 'block_content:afe92301-cbb3-4004-9e40-a4c8bb1e6c73'
+  label: 'css block user dashboards'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "*/challenge-owner-*\r\n*/challenge-admin-*\r\n*/challenge-author-*"
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      challenge_owner: challenge_owner
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

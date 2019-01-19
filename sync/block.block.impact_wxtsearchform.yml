@@ -11,7 +11,7 @@ _core:
 id: impact_wxtsearchform
 theme: impact_bootstrap
 region: branding
-weight: -6
+weight: -9
 provider: null
 plugin: wxt_search_form_block
 settings:

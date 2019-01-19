@@ -1,0 +1,25 @@
+uuid: 3c2d1c18-3e7f-4aa6-bbd6-741a118e18b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.key_dates.field_key_date
+    - field.field.node.key_dates.field_parent_challenge
+    - node.type.key_dates
+  module:
+    - user
+id: node.key_dates.teaser
+targetEntityType: node
+bundle: key_dates
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_key_date: true
+  field_parent_challenge: true
+  langcode: true

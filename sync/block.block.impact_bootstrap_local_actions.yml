@@ -9,7 +9,7 @@ _core:
 id: impact_bootstrap_local_actions
 theme: impact_bootstrap
 region: header
-weight: -10
+weight: -13
 provider: null
 plugin: local_actions_block
 settings:

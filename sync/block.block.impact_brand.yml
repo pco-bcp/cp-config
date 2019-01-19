@@ -18,7 +18,7 @@ _core:
 id: impact_brand
 theme: impact_bootstrap
 region: branding
-weight: -9
+weight: -12
 provider: null
 plugin: 'system_menu_block:brand'
 settings:

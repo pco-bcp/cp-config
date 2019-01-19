@@ -11,7 +11,7 @@ _core:
 id: impact_bootstrap_messages
 theme: impact_bootstrap
 region: highlighted
-weight: -12
+weight: -14
 provider: null
 plugin: system_messages_block
 settings:

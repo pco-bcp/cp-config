@@ -1,0 +1,40 @@
+uuid: 6a5f27a3-0cc0-46dd-bc8c-d6da33ecdcfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.key_dates.field_key_date
+    - field.field.node.key_dates.field_parent_challenge
+    - node.type.key_dates
+  module:
+    - datetime
+    - user
+id: node.key_dates.default
+targetEntityType: node
+bundle: key_dates
+mode: default
+content:
+  field_key_date:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_parent_challenge:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

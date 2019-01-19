@@ -13,7 +13,7 @@ dependencies:
 id: jumbotron
 theme: impact_bootstrap
 region: content
-weight: -11
+weight: -13
 provider: null
 plugin: 'block_content:1e1cfcbd-e89a-455b-a839-ba1309e1fa9f'
 settings:

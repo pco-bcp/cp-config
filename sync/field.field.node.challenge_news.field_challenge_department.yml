@@ -9,9 +9,9 @@ id: node.challenge_news.field_challenge_department
 field_name: field_challenge_department
 entity_type: node
 bundle: challenge_news
-label: Department
-description: ''
-required: false
+label: Source
+description: 'List the source of the news item (e.g. Infrastructure Canada, CBC, etc..)'
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''

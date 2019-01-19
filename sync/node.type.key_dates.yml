@@ -1,0 +1,18 @@
+uuid: bcb2c2bf-dc8a-418d-96fb-3e8f2eaafbb0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Challenge Key Dates'
+type: key_dates
+description: 'Repository for key dates linked to Challenges and Initiatives'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -8,10 +8,10 @@ schemas:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: 'public://favicon.ico'
-  url: 'http://impact.localhost/sites/default/files/favicon.ico'
+  url: 'http://impact.qualivera.com/profiles/pco_cities/themes/custom/impact_bootstrap/favicon.ico'
   use_default: true
 wxt_skip_link_primary_text: 'Skip to main content'
-wxt_skip_link_secondary_text: 'Skip to "About this site"'
+wxt_skip_link_secondary_text: 'Skip to Language Toggle'
 region_wells:
   branding: ''
   breadcrumb: ''
@@ -25,6 +25,7 @@ region_wells:
   content: ''
   content_footer: ''
   footer: ''
+  footer_right: ''
 breadcrumb: '0'
 features:
   comment_user_picture: true
@@ -35,4 +36,6 @@ logo:
   path: profiles/pco_cities/pco_cities.svg
   url: ''
   use_default: false
+wxt_skip_link_primary: wb-content
+wxt_skip_link_secondary: block-impact-languageswitcher
 table: ''

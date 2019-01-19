@@ -145,3 +145,6 @@ challenge_pages: 0.0.0
 challenge_submission: 0.0.0
 login_redirect: 0.0.0
 smtp: 0.0.0
+webform: 5.0.0-rc27
+webform_node: 5.0.0-rc27
+webform_ui: 5.0.0-rc27
