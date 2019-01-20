@@ -23,9 +23,12 @@ content:
     third_party_settings: {  }
   field_key_date:
     weight: 2
-    settings: {  }
+    settings:
+      increment: 15
+      date_order: YMD
+      time_type: '24'
     third_party_settings: {  }
-    type: datetime_default
+    type: datetime_datelist
     region: content
   field_parent_challenge:
     weight: 1
