@@ -1,0 +1,22 @@
+uuid: 6e1b91dc-3702-4796-bb8e-66cc4494e158
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.restricted_page
+id: node.restricted_page.status
+field_name: status
+entity_type: node
+bundle: restricted_page
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

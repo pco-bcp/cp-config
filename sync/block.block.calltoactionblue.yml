@@ -13,7 +13,7 @@ dependencies:
 id: calltoactionblue
 theme: impact_bootstrap
 region: content_footer
-weight: -12
+weight: -11
 provider: null
 plugin: 'block_content:99aa4433-3b33-4e2c-a330-602cab601b9d'
 settings:

@@ -12,7 +12,7 @@ dependencies:
 id: cssblock_2
 theme: impact_bootstrap
 region: footer
-weight: -11
+weight: -12
 provider: null
 plugin: 'block_content:515592a6-6209-4e2f-851f-ba2c996c1989'
 settings:

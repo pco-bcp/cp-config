@@ -1,0 +1,28 @@
+uuid: ed850e0b-243f-4569-a2f6-45d43bec8502
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parent_challenge
+    - node.type.challenge
+    - node.type.restricted_page
+id: node.restricted_page.field_parent_challenge
+field_name: field_parent_challenge
+entity_type: node
+bundle: restricted_page
+label: Challenge
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      challenge: challenge
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

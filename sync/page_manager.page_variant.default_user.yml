@@ -4,7 +4,10 @@ status: true
 dependencies:
   config:
     - page_manager.page.user
+  content:
+    - 'block_content:basic:afe92301-cbb3-4004-9e40-a4c8bb1e6c73'
   module:
+    - block_content
     - ctools
     - panels
 _core:
@@ -21,10 +24,22 @@ variant_settings:
       label_display: '0'
       view_mode: full
       region: content
-      weight: 0
+      weight: 1
       uuid: 142d3558-5fee-442f-9300-a5cf52f2b6a2
       context_mapping:
         entity: current_user
+    a6b2b9b7-9422-406c-a633-0bbbd96bdc28:
+      id: 'block_content:afe92301-cbb3-4004-9e40-a4c8bb1e6c73'
+      label: 'css block admin menu'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      context_mapping: {  }
+      region: content
+      uuid: a6b2b9b7-9422-406c-a633-0bbbd96bdc28
+      weight: 2
   id: panels_variant
   uuid: 1c74464e-5b9d-41e7-8825-371a214b4620
   label: null

@@ -1,9 +1,9 @@
-uuid: 4582ab3a-0f6a-4381-8d3e-885795ece91d
+uuid: a5fa07cd-b1a9-4167-ba82-a5e644a1dccf
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:afe92301-cbb3-4004-9e40-a4c8bb1e6c73'
+    - 'block_content:basic:975e8dec-9297-4542-ac96-be26bf811053'
   module:
     - block_content
     - system
@@ -11,37 +11,35 @@ dependencies:
     - wxt_library
   theme:
     - impact_bootstrap
-id: cssblockuserdashboards
+id: challengeadminmenu_2
 theme: impact_bootstrap
-region: footer
-weight: -11
+region: header
+weight: -14
 provider: null
-plugin: 'block_content:afe92301-cbb3-4004-9e40-a4c8bb1e6c73'
+plugin: 'block_content:975e8dec-9297-4542-ac96-be26bf811053'
 settings:
-  id: 'block_content:afe92301-cbb3-4004-9e40-a4c8bb1e6c73'
-  label: 'css block user dashboards'
+  id: 'block_content:975e8dec-9297-4542-ac96-be26bf811053'
+  label: challenge-admin-menu
   provider: block_content
   label_display: '0'
   status: true
   info: ''
   view_mode: full
 visibility:
-  request_path:
-    id: request_path
-    pages: "*/challenge-*\r\n"
-    negate: false
-    context_mapping: {  }
   user_role:
     id: user_role
     roles:
       administrator: administrator
-      challenge_owner: challenge_owner
-      juror: juror
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'
   panels_title:
     id: panels_title
     enabled: 0
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '*/challenge-admin*'
     negate: false
     context_mapping: {  }

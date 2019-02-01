@@ -6,6 +6,7 @@ dependencies:
     - system.menu.main
   module:
     - system
+    - wxt_library
   theme:
     - impact_bootstrap
 _core:
@@ -13,7 +14,7 @@ _core:
 id: impact_bootstrap_main_menu
 theme: impact_bootstrap
 region: navigation
-weight: -13
+weight: -14
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -23,4 +24,14 @@ settings:
   label_display: '0'
   level: 1
   depth: 2
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '*/challenge-*'
+    negate: true
+    context_mapping: {  }
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

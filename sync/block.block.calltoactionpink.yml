@@ -13,7 +13,7 @@ dependencies:
 id: calltoactionpink
 theme: impact_bootstrap
 region: content_footer
-weight: -9
+weight: -8
 provider: null
 plugin: 'block_content:bd985543-6a0c-49ce-8978-4a0d3286d744'
 settings:

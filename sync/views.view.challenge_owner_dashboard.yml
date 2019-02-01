@@ -11,7 +11,6 @@ dependencies:
     - image.style.small
     - image.style.thumbnail
     - node.type.challenge
-    - node.type.challenge_news
     - node.type.challenge_page
     - user.role.administrator
     - user.role.challenge_owner
@@ -1206,7 +1205,6 @@ display:
           admin_label: ''
           operator: in
           value:
-            challenge_news: challenge_news
             challenge_page: challenge_page
           group: 1
           exposed: false
@@ -1736,7 +1734,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: true
-          content: "<h3>Additional content</h3>\r\n<p>Shown are subpages and news items that have been linked to the initiative.</p>"
+          content: "<div id=\"dashboard-add-nav\"><a href=\"/en/node/add/challenge_page?destination=/en/challenge-owner-content/{{ raw_arguments.field_parent_challenge_target_id }}\" ><i class=\"far fa-plus-square\"></i> Add Subpage</a></div>\r\n<h3>Additional content</h3>\r\n<p>Shown are subpages that have been linked to the initiative.</p>"
           plugin_id: text_custom
       footer: {  }
     cache_metadata:
@@ -1770,7 +1768,7 @@ display:
           admin_label: ''
           empty: false
           tokenize: true
-          content: "<div id=\"dashboard-list\">\r\n<ul >\r\n<li><a href=\"/en/challenge-owner-dashboard\">My Challenges</a></li>\r\n<li><a href=\"/en/node/add/challenge_page?destination=/en/challenge-owner-dashboard\">Add Content</a></li>\r\n<li><a href=\"/en/node/add/challenge_news?destination=/en/challenge-owner-dashboard\">Add News</a></li>\r\n</ul>\r\n</div>\r\n<div class=\"clearit\"><!--- ---></div>\r\n<h1>My Challenges and Initiatives</h1>\r\n<p>Shown are challenges and initiatives that are linked to your account. Click the title to view additional content linked to it.</p>\r\n"
+          content: "<h1>My Challenges and Initiatives</h1>\r\n<p>Shown are challenges and initiatives that are linked to your account. Click the title to view additional content linked to it.</p>\r\n"
           plugin_id: text_custom
       defaults:
         header: false
@@ -2556,18 +2554,7 @@ display:
       row:
         type: fields
         options: {  }
-      header:
-        area_text_custom:
-          id: area_text_custom
-          table: views
-          field: area_text_custom
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: true
-          tokenize: true
-          content: "<div id=\"dashboard-list\">\r\n<ul >\r\n<li><a href=\"/en/challenge-owner-dashboard\">My Challenges</a></li>\r\n<li><a href=\"/en/node/add/challenge_page?destination=/en/challenge-owner-content/{{ raw_arguments.nid }}\">Add Content</a></li>\r\n<li><a href=\"/en/node/add/challenge_news?destination=/en/challenge-owner-content/{{ raw_arguments.nid }}\">Add News</a></li>\r\n</ul>\r\n</div>\r\n<div class=\"clearit\"><!--- ---></div>\r\n\r\n"
-          plugin_id: text_custom
+      header: {  }
       display_description: ''
       filters:
         type:

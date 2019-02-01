@@ -1,0 +1,14 @@
+uuid: 007af795-bc54-433a-8f51-ca42696ddaba
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: 'Restricted access to view content linked to specific challenges.'
+id: juror
+label: Juror
+weight: 6
+is_admin: null
+permissions: {  }

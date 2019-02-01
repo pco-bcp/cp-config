@@ -1,0 +1,14 @@
+uuid: bc6fa0c3-639d-4157-bd12-17bbbc312a24
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.juror
+  module:
+    - user
+id: user_add_role_action.juror
+label: 'Add the Juror role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: juror

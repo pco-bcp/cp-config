@@ -13,7 +13,7 @@ dependencies:
 id: ctadark
 theme: impact_bootstrap
 region: content_footer
-weight: -11
+weight: -10
 provider: null
 plugin: 'block_content:51317ecd-e557-4da5-9f5c-d3fde32f672f'
 settings:

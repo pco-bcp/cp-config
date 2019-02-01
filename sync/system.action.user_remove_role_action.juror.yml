@@ -1,0 +1,14 @@
+uuid: 192beb5b-fb8a-493e-ae1e-ed6f5a9179f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.juror
+  module:
+    - user
+id: user_remove_role_action.juror
+label: 'Remove the Juror role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: juror

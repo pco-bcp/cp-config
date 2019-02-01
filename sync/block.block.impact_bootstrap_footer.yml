@@ -6,7 +6,6 @@ dependencies:
     - system.menu.footer
   module:
     - system
-    - user
     - wxt_library
   theme:
     - impact_bootstrap
@@ -26,19 +25,6 @@ settings:
   level: 1
   depth: 0
 visibility:
-  request_path:
-    id: request_path
-    pages: "*/challenge-owner-*\r\n*/challenge-admin-*\r\n"
-    negate: false
-    context_mapping: {  }
-  user_role:
-    id: user_role
-    roles:
-      administrator: administrator
-      challenge_owner: challenge_owner
-    negate: false
-    context_mapping:
-      user: '@user.current_user_context:current_user'
   panels_title:
     id: panels_title
     enabled: 0

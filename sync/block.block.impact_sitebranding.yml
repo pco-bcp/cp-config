@@ -16,7 +16,7 @@ _core:
 id: impact_sitebranding
 theme: impact_bootstrap
 region: banner
-weight: -7
+weight: -13
 provider: null
 plugin: system_branding_block
 settings:
