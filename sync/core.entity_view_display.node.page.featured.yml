@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.page.body
     - field.field.node.page.comment
     - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_narrow_page
     - field.field.node.page.panelizer
     - node.type.page
   module:
@@ -29,11 +30,14 @@ content:
   links:
     weight: 101
     region: content
+    settings: {  }
+    third_party_settings: {  }
   workbench_moderation_control:
     weight: -20
     region: content
 hidden:
   comment: true
   field_meta_tags: true
+  field_narrow_page: true
   langcode: true
   panelizer: true

@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_challenge_id
     - field.field.user.user.field_first_name
     - field.field.user.user.field_last_name
     - field.field.user.user.panelizer
@@ -95,6 +96,14 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
+  field_challenge_id:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
   field_first_name:
     type: string
     weight: 5
@@ -127,4 +136,5 @@ content:
     region: content
 hidden:
   langcode: true
+  name: true
   panelizer: true

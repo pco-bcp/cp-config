@@ -1,0 +1,29 @@
+uuid: 27cde982-4ddf-4747-93cc-7dd51decd636
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.freestyle_page.body
+    - node.type.freestyle_page
+  module:
+    - text
+    - user
+id: node.freestyle_page.default
+targetEntityType: node
+bundle: freestyle_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -148,3 +148,4 @@ smtp: 0.0.0
 webform: 5.0.0-rc27
 webform_node: 5.0.0-rc27
 webform_ui: 5.0.0-rc27
+field_permissions: 1.0.0-rc2

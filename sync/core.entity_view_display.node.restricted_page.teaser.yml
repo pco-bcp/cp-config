@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.restricted_page.body
+    - field.field.node.restricted_page.field_parent_challenge
+    - field.field.node.restricted_page.field_upload_file
     - node.type.restricted_page
   module:
     - text
@@ -28,4 +30,6 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_parent_challenge: true
+  field_upload_file: true
   langcode: true

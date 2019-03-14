@@ -1,9 +1,9 @@
-uuid: 29c561a6-8fe6-4489-a67c-4dd582ba49b2
+uuid: 93d7cbdf-3276-44bf-97aa-bc0ce602f703
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:975e8dec-9297-4542-ac96-be26bf811053'
+    - 'block_content:basic:d788778f-1e64-409e-8d69-9d72f0ee0eb9'
   module:
     - block_content
     - system
@@ -16,9 +16,9 @@ theme: impact_bootstrap
 region: content
 weight: 0
 provider: null
-plugin: 'block_content:975e8dec-9297-4542-ac96-be26bf811053'
+plugin: 'block_content:d788778f-1e64-409e-8d69-9d72f0ee0eb9'
 settings:
-  id: 'block_content:975e8dec-9297-4542-ac96-be26bf811053'
+  id: 'block_content:d788778f-1e64-409e-8d69-9d72f0ee0eb9'
   label: challenge-admin-menu
   provider: block_content
   label_display: '0'

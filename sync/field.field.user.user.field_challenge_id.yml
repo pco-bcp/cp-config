@@ -1,0 +1,29 @@
+uuid: 7a1a6ad2-e578-42c3-a538-6bb9ecefe789
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_challenge_id
+    - node.type.challenge
+  module:
+    - user
+id: user.user.field_challenge_id
+field_name: field_challenge_id
+entity_type: user
+bundle: user
+label: 'Linked Challenge'
+description: 'Use this to link the user account to a specific challenge'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      challenge: challenge
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

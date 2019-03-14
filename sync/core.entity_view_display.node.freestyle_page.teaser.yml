@@ -1,19 +1,17 @@
-uuid: 0807b713-f776-41be-99eb-cc1a8532bbae
+uuid: 533742f3-e388-4f2b-96a0-f04e8a4a1819
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.header_banner.body
-    - field.field.node.header_banner.field_background_image
-    - field.field.node.header_banner.field_photo_credit
-    - node.type.header_banner
+    - field.field.node.freestyle_page.body
+    - node.type.freestyle_page
   module:
     - text
     - user
-id: node.header_banner.teaser
+id: node.freestyle_page.teaser
 targetEntityType: node
-bundle: header_banner
+bundle: freestyle_page
 mode: teaser
 content:
   body:
@@ -26,10 +24,8 @@ content:
     region: content
   links:
     weight: 100
-    region: content
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
-  field_background_image: true
-  field_photo_credit: true
   langcode: true

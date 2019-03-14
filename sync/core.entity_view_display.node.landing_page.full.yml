@@ -8,15 +8,7 @@ dependencies:
     - field.field.node.landing_page.field_meta_tags
     - field.field.node.landing_page.panelizer
     - node.type.landing_page
-    - core.entity_view_mode.node.full
-    - field.field.node.landing_page.body
-    - field.field.node.landing_page.field_meta_tags
-    - field.field.node.landing_page.panelizer
-    - node.type.landing_page
   module:
-    - metatag
-    - panelizer
-    - user
     - metatag
     - panelizer
     - user

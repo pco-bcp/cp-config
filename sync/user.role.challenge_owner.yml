@@ -50,6 +50,7 @@ permissions:
   - 'delete own tweet media'
   - 'delete own video media'
   - 'dropzone upload files'
+  - 'edit any challenge_page content'
   - 'edit own challenge content'
   - 'edit own challenge_news content'
   - 'edit own challenge_page content'

@@ -1,4 +1,4 @@
-uuid: c6744b76-a42e-4218-bc40-a272a03f561b
+uuid: a8599e7c-3536-4b5b-8666-f7d974e391cc
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Challenge Restricted Page'
-type: restricted_page
-description: 'Page that is restricted to specific user roles'
+name: 'Freestyle Page'
+type: freestyle_page
+description: 'Similar to a basic page, but it''s full width and no title.'
 help: ''
 new_revision: true
 preview_mode: 1

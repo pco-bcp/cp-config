@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.challenge_page.body
     - field.field.node.challenge_page.field_challenge_sidebar_content
+    - field.field.node.challenge_page.field_narrow_page
+    - field.field.node.challenge_page.field_parent_challenge
     - node.type.challenge_page
   module:
     - text
@@ -28,6 +30,10 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   field_challenge_sidebar_content: true
+  field_narrow_page: true
+  field_parent_challenge: true
   langcode: true

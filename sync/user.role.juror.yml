@@ -6,7 +6,7 @@ dependencies:
     - lightning_core
 third_party_settings:
   lightning_core:
-    description: 'Restricted access to view content linked to specific challenges.'
+    description: 'Restricted access to juror pages.'
 id: juror
 label: Juror
 weight: 6

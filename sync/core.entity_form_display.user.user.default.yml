@@ -3,8 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_challenge_id
     - field.field.user.user.field_first_name
     - field.field.user.user.field_last_name
+    - field.field.user.user.panelizer
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -21,8 +23,18 @@ content:
   account:
     weight: -10
     region: content
+    settings: {  }
+    third_party_settings: {  }
   contact:
     weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_challenge_id:
+    weight: 33
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   field_first_name:
     type: string_textfield
@@ -43,9 +55,13 @@ content:
   google_analytics:
     weight: 3
     region: content
+    settings: {  }
+    third_party_settings: {  }
   language:
     weight: 0
     region: content
+    settings: {  }
+    third_party_settings: {  }
   path:
     type: path
     weight: 30
@@ -55,6 +71,8 @@ content:
   timezone:
     weight: 6
     region: content
+    settings: {  }
+    third_party_settings: {  }
   user_picture:
     type: image_image
     settings:
@@ -65,3 +83,4 @@ content:
     region: content
 hidden:
   langcode: true
+  panelizer: true

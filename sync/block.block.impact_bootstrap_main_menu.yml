@@ -25,11 +25,6 @@ settings:
   level: 1
   depth: 2
 visibility:
-  request_path:
-    id: request_path
-    pages: '*/challenge-*'
-    negate: true
-    context_mapping: {  }
   panels_title:
     id: panels_title
     enabled: 0

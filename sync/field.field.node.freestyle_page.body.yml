@@ -1,0 +1,22 @@
+uuid: ede6a4e0-bae8-4f74-b716-9b7037689aed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.freestyle_page
+  module:
+    - text
+id: node.freestyle_page.body
+field_name: body
+entity_type: node
+bundle: freestyle_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

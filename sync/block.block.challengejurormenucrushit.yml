@@ -1,9 +1,9 @@
-uuid: 46c861aa-bc27-4682-8967-510601e8f934
+uuid: 354dedb4-27c6-40e5-b268-a05ce7d1e93b
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:234961ad-0e1c-497f-9ff9-c52dd793fc2c'
+    - 'block_content:basic:54756dcd-585f-470f-abef-231831a2dadb'
   module:
     - block_content
     - system
@@ -11,36 +11,35 @@ dependencies:
     - wxt_library
   theme:
     - impact_bootstrap
-id: challengeownermenu
+id: challengejurormenucrushit
 theme: impact_bootstrap
-region: header
+region: content
 weight: 0
 provider: null
-plugin: 'block_content:234961ad-0e1c-497f-9ff9-c52dd793fc2c'
+plugin: 'block_content:54756dcd-585f-470f-abef-231831a2dadb'
 settings:
-  id: 'block_content:234961ad-0e1c-497f-9ff9-c52dd793fc2c'
-  label: challenge-owner-menu
+  id: 'block_content:54756dcd-585f-470f-abef-231831a2dadb'
+  label: challenge-juror-menu-crushit
   provider: block_content
   label_display: '0'
   status: true
   info: ''
   view_mode: full
 visibility:
-  request_path:
-    id: request_path
-    pages: '*/challenge-owner*'
-    negate: false
-    context_mapping: {  }
-  user_role:
-    id: user_role
-    roles:
-      administrator: administrator
-      challenge_owner: challenge_owner
-    negate: false
-    context_mapping:
-      user: '@user.current_user_context:current_user'
   panels_title:
     id: panels_title
     enabled: 0
     negate: false
     context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '*/user*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

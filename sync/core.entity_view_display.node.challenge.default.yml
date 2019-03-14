@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.challenge.field_challenge_description
     - field.field.node.challenge.field_challenge_details_block
     - field.field.node.challenge.field_challenge_details_footer
+    - field.field.node.challenge.field_challenge_details_title
     - field.field.node.challenge.field_challenge_email_contents
     - field.field.node.challenge.field_challenge_image
     - field.field.node.challenge.field_challenge_status
@@ -286,6 +287,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_challenge_details_title:
+    weight: 142
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_challenge_email_contents:
     weight: 114

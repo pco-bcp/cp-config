@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.challenge.field_challenge_description
     - field.field.node.challenge.field_challenge_details_block
     - field.field.node.challenge.field_challenge_details_footer
+    - field.field.node.challenge.field_challenge_details_title
     - field.field.node.challenge.field_challenge_email_contents
     - field.field.node.challenge.field_challenge_image
     - field.field.node.challenge.field_challenge_status
@@ -93,6 +94,7 @@ third_party_settings:
         - field_challenge_image
         - field_challenge_description
         - field_tags
+        - field_challenge_details_title
         - field_challenge_details_block
         - field_challenge_details_footer
       parent_name: ''
@@ -215,7 +217,7 @@ content:
     type: text_textarea_with_summary
     region: content
   field_challenge_details_block:
-    weight: 57
+    weight: 58
     settings:
       rows: 5
       placeholder: ''
@@ -223,12 +225,20 @@ content:
     type: text_textarea
     region: content
   field_challenge_details_footer:
-    weight: 58
+    weight: 59
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
+    region: content
+  field_challenge_details_title:
+    weight: 57
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_challenge_email_contents:
     weight: 52

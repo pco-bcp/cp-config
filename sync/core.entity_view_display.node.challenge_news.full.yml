@@ -7,7 +7,9 @@ dependencies:
     - field.field.node.challenge_news.body
     - field.field.node.challenge_news.field_challenge_department
     - field.field.node.challenge_news.field_image
+    - field.field.node.challenge_news.field_parent_challenge
     - field.field.node.challenge_news.field_published_date
+    - field.field.node.challenge_news.field_url
     - node.type.challenge_news
   module:
     - image
@@ -45,6 +47,10 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  field_parent_challenge: true
   field_published_date: true
+  field_url: true
   langcode: true

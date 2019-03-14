@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.challenge_banner
     - field.field.node.challenge_page.body
     - field.field.node.challenge_page.field_challenge_sidebar_content
+    - field.field.node.challenge_page.field_narrow_page
     - field.field.node.challenge_page.field_parent_challenge
     - node.type.challenge_page
   module:
@@ -184,4 +185,5 @@ content:
     third_party_settings: {  }
 hidden:
   field_challenge_sidebar_content: true
+  field_narrow_page: true
   langcode: true

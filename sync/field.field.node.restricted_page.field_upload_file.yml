@@ -19,8 +19,8 @@ default_value: {  }
 default_value_callback: ''
 settings:
   file_directory: '[date:custom:Y]-[date:custom:m]'
-  file_extensions: 'docx pdf'
-  max_filesize: '5 MB'
+  file_extensions: 'docx pdf mp4 pptx xlsx ppsx'
+  max_filesize: '600 MB'
   description_field: false
   handler: 'default:file'
   handler_settings: {  }

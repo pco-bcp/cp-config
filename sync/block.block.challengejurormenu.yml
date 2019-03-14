@@ -1,9 +1,9 @@
-uuid: eae732c3-7788-49af-90cd-24c7cd2680da
+uuid: ffa6a822-b511-4b70-8c8b-f049c668c6e4
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:799c0fae-6a24-4efe-a531-41d4ceefdc51'
+    - 'block_content:basic:f2db72e1-ee2e-4f58-9d3a-6a2d4f5a5648'
   module:
     - block_content
     - system
@@ -11,15 +11,15 @@ dependencies:
     - wxt_library
   theme:
     - impact_bootstrap
-id: challengejurormenu_2
+id: challengejurormenu
 theme: impact_bootstrap
 region: content
 weight: 0
 provider: null
-plugin: 'block_content:799c0fae-6a24-4efe-a531-41d4ceefdc51'
+plugin: 'block_content:f2db72e1-ee2e-4f58-9d3a-6a2d4f5a5648'
 settings:
-  id: 'block_content:799c0fae-6a24-4efe-a531-41d4ceefdc51'
-  label: challenge-juror-menu
+  id: 'block_content:f2db72e1-ee2e-4f58-9d3a-6a2d4f5a5648'
+  label: challenge-juror-menu-dctc
   provider: block_content
   label_display: '0'
   status: true

@@ -1,0 +1,16 @@
+uuid: 04caa2a0-1616-4a64-bc36-3dd5534d78d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.freestyle_page
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.freestyle_page
+target_entity_type_id: node
+target_bundle: freestyle_page
+default_langcode: site_default
+language_alterable: false

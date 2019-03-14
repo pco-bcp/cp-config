@@ -4,11 +4,40 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.challenge.field_challeng_subpage_url_1
+    - field.field.node.challenge.field_challeng_subpage_url_2
+    - field.field.node.challenge.field_challeng_subpage_url_3
+    - field.field.node.challenge.field_challeng_subpage_url_4
+    - field.field.node.challenge.field_challeng_subpage_url_5
     - field.field.node.challenge.field_challenge_department
     - field.field.node.challenge.field_challenge_description
     - field.field.node.challenge.field_challenge_details_block
+    - field.field.node.challenge.field_challenge_details_footer
+    - field.field.node.challenge.field_challenge_email_contents
     - field.field.node.challenge.field_challenge_image
+    - field.field.node.challenge.field_challenge_status
+    - field.field.node.challenge.field_challenge_submission_email
+    - field.field.node.challenge.field_challenge_subpage_body_1
+    - field.field.node.challenge.field_challenge_subpage_body_2
+    - field.field.node.challenge.field_challenge_subpage_body_3
+    - field.field.node.challenge.field_challenge_subpage_body_4
+    - field.field.node.challenge.field_challenge_subpage_body_5
+    - field.field.node.challenge.field_challenge_subpage_enable_1
+    - field.field.node.challenge.field_challenge_subpage_enable_2
+    - field.field.node.challenge.field_challenge_subpage_enable_3
+    - field.field.node.challenge.field_challenge_subpage_enable_4
+    - field.field.node.challenge.field_challenge_subpage_enable_5
+    - field.field.node.challenge.field_challenge_subpage_title_1
+    - field.field.node.challenge.field_challenge_subpage_title_2
+    - field.field.node.challenge.field_challenge_subpage_title_3
+    - field.field.node.challenge.field_challenge_subpage_title_4
+    - field.field.node.challenge.field_challenge_subpage_title_5
+    - field.field.node.challenge.field_friendly_url
+    - field.field.node.challenge.field_initiative_type
+    - field.field.node.challenge.field_nav_title
+    - field.field.node.challenge.field_order
     - field.field.node.challenge.field_single_line_teaser
+    - field.field.node.challenge.field_submission_guidelines_link
     - field.field.node.challenge.field_tags
     - node.type.challenge
   module:
@@ -42,9 +71,38 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_challeng_subpage_url_1: true
+  field_challeng_subpage_url_2: true
+  field_challeng_subpage_url_3: true
+  field_challeng_subpage_url_4: true
+  field_challeng_subpage_url_5: true
   field_challenge_department: true
   field_challenge_details_block: true
+  field_challenge_details_footer: true
+  field_challenge_email_contents: true
   field_challenge_image: true
+  field_challenge_status: true
+  field_challenge_submission_email: true
+  field_challenge_subpage_body_1: true
+  field_challenge_subpage_body_2: true
+  field_challenge_subpage_body_3: true
+  field_challenge_subpage_body_4: true
+  field_challenge_subpage_body_5: true
+  field_challenge_subpage_enable_1: true
+  field_challenge_subpage_enable_2: true
+  field_challenge_subpage_enable_3: true
+  field_challenge_subpage_enable_4: true
+  field_challenge_subpage_enable_5: true
+  field_challenge_subpage_title_1: true
+  field_challenge_subpage_title_2: true
+  field_challenge_subpage_title_3: true
+  field_challenge_subpage_title_4: true
+  field_challenge_subpage_title_5: true
+  field_friendly_url: true
+  field_initiative_type: true
+  field_nav_title: true
+  field_order: true
   field_single_line_teaser: true
+  field_submission_guidelines_link: true
   field_tags: true
   langcode: true
